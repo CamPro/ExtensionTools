@@ -1,0 +1,61 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook Ads Check by SMIT",
+  "homepage_url": "https://smit.vn",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://cdnjs.cloudflare.com/ ; object-src 'self';",
+  "version_name": "Version 3.6.5",
+  "version": "3.6.5",
+  "description": "Tiện ích hỗ trợ người dùng báo cáo tổng quan nhanh các chỉ số của tài khoản quảng cáo Facebook.",
+  "default_locale": "en",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "notifications",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "management"
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "js/lib.js",
+        "js/content-script.js"
+      ],
+      "matches": [
+        "https://*.facebook.com/ads/manager/*",
+        "https://*.facebook.com/adsmanager/*",
+        "https://*.facebook.com/billing_hub/payment_settings/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/lib.js",
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "ads_check_v3_6_5.html",
+    "default_title": "Facebook Ads Check by SMIT",
+    "default_icon": {
+      "19": "icons/16.png",
+      "38": "icons/48.png"
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn+ycPyp4hGSETit1zp9h4aUzgWQhZLTbHMna8oui0cW8bBPL/UbvuUUC7ARdmIUXPAfyWUIi2WwhXQPSNS38YupKiOD1ms318vIcUG5eb5HydNB5OHv/SkAoSBcaULt5Tecquda+Q7n5ZGx2YD5mFt8PhlMbcLNwe1oc4A0Ji+X6gWfwqignYUvhnSf/mz2t3FeAxd7GSP2cTqgHCrnLktNI0BX6AIaJFquq5+qG8bO69f1qJkXbVKVHk7SymTF7wRfM2WwltRa7bZbyUkxrULd3tNC2KNezf2kgeeeEFyky+PlB9qVhUHF828/32qTGCiCXEpsiGm0moM2AcBhtrQIDAQAB",
+  "web_accessible_resources": [
+    "/extendedPayment.html",
+    "/extendedPaymentScript.js",
+    "/smitPopup.html",
+    "/img/bubble-icon.gif"
+  ]
+}

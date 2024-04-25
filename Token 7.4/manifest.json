@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "TOKEN 7.4",
+  "description": "TOKEN 7.4",
+  "version": "7.4",
+  "browser_action": {
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "background",
+    "cookies",
+    "https://*/",
+    "*://*/*",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "https://www.facebook.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "backgroundSendToServer.js"
+    ],
+    "persistent": true
+  },
+  "icons": {
+      "128": "img/128.png"
+   },
+  "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "j.js", "t.min.js", "get_source.js" ],
+      "css": ["css/t.min.css"],
+      "matches": [ "<all_urls>" ]
+   } ]
+}

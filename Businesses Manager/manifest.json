@@ -1,0 +1,64 @@
+{
+    "name": "Businesses Manager",
+    "description": "A chrome extension very silly",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Click to start",
+        "default_icon": "./static/images/icons/icon16.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "static/js/jquery.js",
+                "static/js/moment.min.js",
+                "static/js/content.js"
+            ],
+            "matches": [
+                "*://*.business.facebook.com/*"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "alarms",
+        "activeTab",
+        "storage",
+        "unlimitedStorage",
+        "cookies",
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking",
+        "management",
+        "webNavigation",
+        "proxy",
+        "notifications",
+        "*://*.facebook.com/*",
+        "clipboardWrite",
+        "clipboardRead",
+        "downloads"
+    ],
+    "background": {
+        "scripts": [
+            "./static/js/background.js"
+        ],
+        "persistent": true
+    },
+    "commands": {
+        "Ctrl+M": {
+            "suggested_key": {
+                "default": "Ctrl+M",
+                "mac": "Command+M"
+            },
+            "description": "Ctrl+M."
+        }
+    },
+    "icons": {
+        "16": "./static/images/icons/icon16.png",
+        "32": "./static/images/icons/icon32.png",
+        "48": "./static/images/icons/icon48.png",
+        "128": "./static/images/icons/icon128.png"
+    },
+    "author": "AnhPT"
+}
