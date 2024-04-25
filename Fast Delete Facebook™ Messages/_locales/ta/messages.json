@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "ரத்து"
+   },
+   "confirm_text": {
+      "message": "எல்லா செய்திகளையும் நிச்சயமாக நீக்க விரும்புகிறீர்களா?"
+   },
+   "confirm_warning": {
+      "message": "கவனமாக இரு!"
+   },
+   "confirm_yes": {
+      "message": "ஆம், நீக்கு"
+   },
+   "default_title": {
+      "message": "வேகமாக Facebook™ செய்திகள் நீக்கு"
+   },
+   "description": {
+      "message": "வெறுமனே 2 கிளிக்குகளில் Chrome இல் உள்ள அனைத்து Facebook™ செய்திகளை வெறுமனே நீக்கவும்"
+   },
+   "name": {
+      "message": "வேகமாக Facebook™ செய்திகள் நீக்கு"
+   },
+   "please_rate": {
+      "message": "5 நட்சத்திரங்களை எங்களுக்கு மதிப்பிடுங்கள்"
+   },
+   "popup_btn_step_1": {
+      "message": "படி 1. திறந்த செய்திகள்"
+   },
+   "popup_btn_step_2": {
+      "message": "படி 2. அனைத்து செய்திகள் நீக்கவும்"
+   },
+   "popup_header_title": {
+      "message": "வேகமாக Facebook™ செய்திகள் நீக்கு"
+   },
+   "popup_title": {
+      "message": "வேகமாக Facebook™ செய்திகள் நீக்கு"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "எல்லா செய்திகளும் அகற்றப்பட்டன. இந்த கருவியை நீங்கள் விரும்பினால் - Chrome Web Store இல் 5 நட்சத்திரங்களை மதிப்பிடவும்! :)"
+   },
+   "success_delete_all_title": {
+      "message": "வெற்றி"
+   }
+}

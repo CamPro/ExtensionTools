@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Annulla"
+   },
+   "confirm_text": {
+      "message": "Sei sicuro di voler eliminare tutti i messaggi?"
+   },
+   "confirm_warning": {
+      "message": "Stai attento!"
+   },
+   "confirm_yes": {
+      "message": "Sì, elimina"
+   },
+   "default_title": {
+      "message": "Elimina rapidamente i messaggi di Facebook™"
+   },
+   "description": {
+      "message": "Basta eliminare tutti i messaggi di Facebook™ in Chrome in soli 2 clic"
+   },
+   "name": {
+      "message": "Elimina rapidamente i messaggi di Facebook™"
+   },
+   "please_rate": {
+      "message": "Votaci 5 stelle"
+   },
+   "popup_btn_step_1": {
+      "message": "Passaggio 1. Apri Messaggi"
+   },
+   "popup_btn_step_2": {
+      "message": "Passaggio 2. Elimina tutti i messaggi"
+   },
+   "popup_header_title": {
+      "message": "Elimina rapidamente i messaggi di Facebook™"
+   },
+   "popup_title": {
+      "message": "Elimina rapidamente i messaggi di Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Tutti i messaggi sono stati rimossi. Se ti piace questo strumento, vota 5 stelle su Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Successo"
+   }
+}

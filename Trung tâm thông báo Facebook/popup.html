@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Notification Center / Popup / v7.1</title>
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="cookie.js"></script>
+    <script src="analytics.js"></script>
+    <script src="popup.js"></script>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #313540;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+h1 {
+
+    text-decoration: underline;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 22px;
+    padding: 0;
+}
+
+.fbLike {
+    position: absolute !important;
+    top: 15px;
+    right: 18px;
+}
+
+.roundImage {}
+
+.appsPanel {
+    width: 660px;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+.notification,
+.messages {
+    position: absolute;
+    right: 0;
+    background: #dc0606;
+    padding: 4px 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.appsPanel .sortable-list {
+    margin: 0 auto;
+    text-align: center;
+    width: 660px;
+    margin-top: 50px;
+}
+
+
+.appsPanel #ql_bg {
+    margin-top: -40px;
+    height: 420px;
+}
+
+.appsPanel a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+.appsPanel .sortable-item {
+    width: 90px;
+    float: left;
+    margin: 10px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.appsPanel .sortable-item img {
+    margin-bottom: 8px;
+    width: 90px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.placeholder {
+    float: left;
+    margin: 10px 20px;
+    width: 90px;
+    height: 110px;
+    background-color: #2c5880;
+    -webkit-border-radius: 29px;
+    -moz-border-radius: 29px;
+    border-radius: 29px;
+}
+
+.footer {
+    width: 100%;
+    background: #42568a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.posBottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+</style>
+
+<body>
+    <div class="appsPanel">
+        <h1><a href="http://www.sociotrope.com/2018/01/notification-center-for-facebook-with.html?extension_title=1" target="_blank">Notification Center</a></h1>
+        <div id="facePile" style="float:left; width:630px;  margin:10px 0px 10px 10px; padding-left:10px; overflow: hidden; margin: 0 auto;">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ffacebook&width=970&layout=standard&action=recommend&size=small&show_faces=true&share=false&height=80&appId=189217064448789" width="970" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+        <a class="fbLike" href="https://www.facebook.com/sharer/sharer.php?u=http://www.sociotrope.com/2018/01/notification-center-for-facebook-with.html?fb_share=1" target="_blank">
+                <img src="img/fb-like.png" alt="I like this">
+            </a>
+        <div id='message'>You can rearrange the icons in the order you like.
+            <br/> Just press the icon, drag it to the new location and drop it.
+        </div>
+        <div id='ql_bg'>
+            <div class='sortable-list'>
+                <div class='sortable-item' id='0'>
+                    <a href='https://www.facebook.com/?sk=h_chr' target='_blank' title='News Feed'><img alt='News Feed' src='img/01.png'/></a>
+                    <p class='pulse animated'>News Feed</p>
+                </div>
+                <div class='sortable-item' id='1'>
+                    <a href='https://www.facebook.com/messages/' target='_blank' title='Messages'><span class="messages">0</span><img alt='Messages' src='img/02.png'/></a> Messages
+                </div>
+                <div class='sortable-item' id='2'>
+                    <a href='https://www.facebook.com/pages/feed?ref=bookmarks' target='_blank' title='Pages'><img alt='Pages' src='img/03.png'/></a> Pages
+                </div>
+                <div class='sortable-item' id='3'>
+                    <a href='https://www.facebook.com/search/me/friends/photos-by/this-month/date/photos/intersect' target='_blank' title='Photos'><img alt='Photos' src='img/04.png'/></a> Photos
+                </div>
+                <div class='sortable-item' id='4'>
+                    <a href='https://www.facebook.com/me' target='_blank' title='My Profile'><img alt='My Profile' src='img/05.png'/></a> My Profile
+                </div>
+                <div class='sortable-item' id='5'>
+                    <a href='https://www.facebook.com/bookmarks/groups' target='_blank' title='Groups'><img alt='Groups' src='img/06.png'/></a> Groups
+                </div>
+                <div class='sortable-item' id='6'>
+                    <a href='https://www.facebook.com/notifications' target='_blank' title='Notifications'><span class="notification">0</span><img alt='Notifications' src='img/07.png'/></a> Notifications
+                </div>
+                <div class='sortable-item' id='7'>
+                    <a href='https://www.facebook.com/events/calendar' target='_blank ' title='Calendar '><img alt='Calendar' src='img/08.png'/></a> Calendar
+                </div>
+                <div class='sortable-item ' id='8'>
+                    <a href='https://www.facebook.com/search/me/friends/videos-by/this-month/date/videos/intersect' target='_blank ' title='Search'><img alt='Search' src='img/09.png'/></a> Search
+                </div>
+                <div class='sortable-item ' id='9'>
+                    <a href='http://sociotrope.com/?extension_link=1' target='_blank ' title='Social News '><img alt='Social News' src='img/10.png'/></a> Social News
+                </div>
+            </div>
+        </div>
+        <div class="footer posBottom">
+            <a href="http://www.sociotrope.com/2018/01/notification-center-for-facebook-with.html?extension_bigger=1" target="_blank">Fullscreen</a>
+            <a href="http://www.sociotrope.com/p/privacy-policy.html" target="_blank">Privacy Policy</a>
+            <a href="https://chrome.google.com/webstore/detail/sociotrope-social-media-n/edoadhjjfgeniilpmnoaddaihjkkhheb" target="_blank">Please Rate Us</a>
+        </div>
+    </div>
+</body>
+
+</html>

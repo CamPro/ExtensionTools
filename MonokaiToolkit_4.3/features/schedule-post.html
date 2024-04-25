@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="" lang-vi="Hẹn Giờ Đăng Bài">Schedule Post</h4>
+                        <p class="opacity-75 " lang-vi="Lên lịch đăng bài viết">
+                            Schedule Post.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Post Form
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                Please input all information below to continue...
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <label for="postPosition" lang-vi="Vị trí đăng">Post position</label>
+                                <select id="postPosition" class="form-control">
+                                    <option value="profile" lang-vi="Trang Cá Nhân" selected>Self Profile</option>
+                                    <option value="friend_profile" lang-vi="Trang Cá Nhân Bạn Bè">Friend's Profile</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="edgeType" lang-vi="Loại hình bài đăng">Status Type</label>
+                                <select id="edgeType" class="form-control">
+                                    <option value="feed" lang-vi="Bài Đăng Thường" selected>Normal Post</option>
+                                    <option value="photos" lang-vi="Bài Đăng Kèm Ảnh">Post with Picture</option>
+                                    <option value="videos" lang-vi="Bài Đăng Kèm Video">Post with Video</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="area-friend-id" style="display: none;">
+                                <label for="inputMessageContent" lang-vi="ID Bạn Bè">Friend ID</label>
+                                <input type="text" class="form-control" id="inputFriendID" placeholder="Friend ID"/>
+                            </div>
+                            <div class=" form-group">
+                                <label for="date-select" lang-vi="Ngày">Select Date</label>
+                                <input id="date-select" type="text" class="js-datepicker form-control" placeholder="Select a Date">
+                            </div>
+                            <div class=" form-group">
+                                <label for="time-select" lang-vi="Thời gian">Select Time</label>
+                                <input id="time-select" class="form-control timepicker" type="text">
+                            </div>
+                            <div class="form-group" id="area-attachment" style="display: none;">
+                                <label for="inputMessageAttachment" lang-vi="URL Tệp Đính Kèm (Ảnh / Video) (Không bắt buộc)">Attachment URL (Photo / Video) (Optional)</label>
+                                <input type="text" class="form-control" id="inputMessageAttachment" placeholder="Attachment URL"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessageContent" lang-vi="Nội Dung Bài đăng">Post Message</label>
+                                <textarea type="text" class="form-control" id="inputMessageContent" placeholder="Content of message" ></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary" id="btn-start" lang-vi="Lên lịch">Schedule</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Bài Đăng Đã Lên Lịch">
+                                Scheduled Posts
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Danh sách bài đăng đã lên lịch...">
+                                List of scheduled posts...
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <table id="table-list" class="table" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Position</th>
+                                        <th>Message</th>
+                                        <th>Attachment</th>
+                                        <th>Time</th>
+                                        <th>State</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="list-scheduled">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Instruction
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                How to use this feature?
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            Note: Your browser must be opened to make sure that this feature will send message at the right time.
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/timepicker/bootstrap-timepicker.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/schedule-post.js"></script>
+
+</body>
+</html>

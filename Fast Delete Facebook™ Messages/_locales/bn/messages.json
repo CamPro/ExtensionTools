@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " বাতিল"
+   },
+   "confirm_text": {
+      "message": "আপনি কি সব বার্তা মুছে ফেলতে চান?"
+   },
+   "confirm_warning": {
+      "message": "সতর্ক হোন!"
+   },
+   "confirm_yes": {
+      "message": "হ্যাঁ, মুছে ফেলুন"
+   },
+   "default_title": {
+      "message": "দ্রুত মুছে ফেলুন Facebook™ বার্তা"
+   },
+   "description": {
+      "message": "কেবলমাত্র 2 ক্লিকে থাকা সমস্ত Facebook™ বার্তাগুলি মুছে দিন।"
+   },
+   "name": {
+      "message": "দ্রুত মুছে ফেলুন Facebook™ বার্তা"
+   },
+   "please_rate": {
+      "message": "আমাদের 5 তারকা রেট দিন"
+   },
+   "popup_btn_step_1": {
+      "message": "ধাপ 1. বার্তা খুলুন"
+   },
+   "popup_btn_step_2": {
+      "message": "ধাপ 2. সব বার্তা মুছে দিন"
+   },
+   "popup_header_title": {
+      "message": "দ্রুত মুছে ফেলুন Facebook™ বার্তা"
+   },
+   "popup_title": {
+      "message": "দ্রুত মুছে ফেলুন Facebook™ বার্তা"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "সমস্ত বার্তা সরানো হয়েছে আপনি যদি এই সরঞ্জাম পছন্দ করেন - দয়া করে Chrome Web Store এ 5 টি তারকা রেট দিন! :)"
+   },
+   "success_delete_all_title": {
+      "message": "সাফল্য"
+   }
+}

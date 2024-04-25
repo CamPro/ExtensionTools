@@ -1,0 +1,50 @@
+{
+  "name": "MonokaiToolkit",
+  "icons": {
+    "16": "assets/img/logo.png",
+    "32": "assets/img/logo.png",
+    "48": "assets/img/logo.png",
+    "64": "assets/img/logo.png",
+    "128": "assets/img/logo.png",
+    "256": "assets/img/logo.png"
+  },
+  "version": "4.3",
+  "description": "Something that you might like ;)",
+  "permissions": [
+    "downloads",
+    "cookies",
+    "storage",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.facebook.com/*",
+    "https://*.messenger.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "custom/plugins/md5.js",
+      "custom/plugins/core.js",
+      "custom/plugins/facebook.js",
+      "assets/vendor/jquery/jquery.min.js",
+      "custom/runtime/background_blockers.js",
+      "custom/runtime/background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*",
+        "*://*.messenger.com/*"
+      ],
+      "js": [
+        "custom/runtime/contentScript.js"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://monokaitoolkit.com https://www.youtube.com/ https://apis.google.com/; object-src 'self'",
+  "manifest_version": 2
+}

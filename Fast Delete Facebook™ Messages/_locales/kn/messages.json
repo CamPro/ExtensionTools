@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "ರದ್ದುಮಾಡಿ"
+   },
+   "confirm_text": {
+      "message": "ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+   },
+   "confirm_warning": {
+      "message": "ಜಾಗರೂಕರಾಗಿರಿ!"
+   },
+   "confirm_yes": {
+      "message": "ಹೌದು, ಅಳಿಸಿ"
+   },
+   "default_title": {
+      "message": "ಫಾಸ್ಟ್ Facebook™ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ"
+   },
+   "description": {
+      "message": "Chrome ನಲ್ಲಿ ಕೇವಲ 2 ಕ್ಲಿಕ್ಗಳಲ್ಲಿ ಎಲ್ಲಾ Facebook™ ಸಂದೇಶಗಳನ್ನು ಸರಳವಾಗಿ ಅಳಿಸಿ"
+   },
+   "name": {
+      "message": "ಫಾಸ್ಟ್ Facebook™ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ"
+   },
+   "please_rate": {
+      "message": "ನಮಗೆ 5 ನಕ್ಷತ್ರಗಳು ರೇಟ್ ಮಾಡಿ"
+   },
+   "popup_btn_step_1": {
+      "message": "ಹೆಜ್ಜೆ 1. ತೆರೆದ ಸಂದೇಶಗಳು"
+   },
+   "popup_btn_step_2": {
+      "message": "ಹೆಜ್ಜೆ 2. ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ"
+   },
+   "popup_header_title": {
+      "message": "ಫಾಸ್ಟ್ Facebook™ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ"
+   },
+   "popup_title": {
+      "message": "ಫಾಸ್ಟ್ Facebook™ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "ಎಲ್ಲಾ ಸಂದೇಶಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ. ನೀವು ಈ ಉಪಕರಣವನ್ನು ಬಯಸಿದರೆ - ದಯವಿಟ್ಟು Chrome ವೆಬ್ ಅಂಗಡಿಯಲ್ಲಿ 5 ನಕ್ಷತ್ರಗಳನ್ನು ರೇಟ್ ಮಾಡಿ! :)"
+   },
+   "success_delete_all_title": {
+      "message": "ಯಶಸ್ಸು"
+   }
+}

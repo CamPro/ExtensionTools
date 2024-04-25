@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " 取消"
+   },
+   "confirm_text": {
+      "message": "您確定要刪除所有郵件嗎？"
+   },
+   "confirm_warning": {
+      "message": "小心！"
+   },
+   "confirm_yes": {
+      "message": "是的，刪除"
+   },
+   "default_title": {
+      "message": "快速刪除Facebook™消息"
+   },
+   "description": {
+      "message": "只需2次點擊即可刪除Chrome中的所有Facebook™消息"
+   },
+   "name": {
+      "message": "快速刪除Facebook™消息"
+   },
+   "please_rate": {
+      "message": "給我們評分5星"
+   },
+   "popup_btn_step_1": {
+      "message": "步驟1.打開消息"
+   },
+   "popup_btn_step_2": {
+      "message": "步驟2.刪除所有消息"
+   },
+   "popup_header_title": {
+      "message": "快速刪除Facebook™消息"
+   },
+   "popup_title": {
+      "message": "快速刪除Facebook™消息"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "所有郵件都已刪除。 如果你喜歡這個工具 - 請在 Chrome Web Store 評分為5星！:)"
+   },
+   "success_delete_all_title": {
+      "message": "成功"
+   }
+}

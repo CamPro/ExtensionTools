@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="">Auto Send Messages</h4>
+                        <p class="opacity-75 ">
+                            Batch send messages to your friends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Message Form
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                Please input all information below to continue...
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <label for="inputLimit">Number of messages</label>
+                                <input type="text" class="form-control" id="inputLimit" placeholder="Number of people who will receive message..." value="100">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessageContent">Message content</label>
+                                <textarea type="text" class="form-control" id="inputMessageContent" placeholder="Content of message" ></textarea>
+                            </div>
+                            <div class="form-group">
+                                <p class="font-secondary">
+                                    Send Speed
+                                </p>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="slow-speed" name="actionSpeed" class="custom-control-input" value="slow">
+                                    <label class="custom-control-label" for="slow-speed">Slow Speed</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="medium-speed" name="actionSpeed" class="custom-control-input" checked value="medium">
+                                    <label class="custom-control-label" for="medium-speed">Medium Speed</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="fast-speed" name="actionSpeed" class="custom-control-input" value="fast">
+                                    <label class="custom-control-label" for="fast-speed">Fast Speed</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary" id="btn-start">Start Action</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                </div>
+                <div class="col-lg-6">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Instruction
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                How to use this feature?
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            Use <code>{{random-string}}</code> / <code>{{random-number}}</code> to have random string and random number in your comment.
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/auto-send-messages.js"></script>
+
+</body>
+</html>

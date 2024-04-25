@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png"/>
+    <link rel="icon" href="assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="assets/vendor/pace/pace.css">
+    <script src="assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned" style="min-width: 750px; height: auto!important;">
+<main class="admin-main">
+    <header class="admin-header" id="popup-header"></header>
+    <section class="admin-content">
+        <div class="container p-t-20" style="max-width: initial;">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card m-b-30">
+                        <div class="card-media self-cover"
+                             style="height: 128px; background-size: cover; background-position: center;">
+                        </div>
+                        <div class="card-body">
+
+                            <div class="text-center pull-up-sm">
+                                <div class="avatar avatar-xl avatar-online">
+                                    <img src="" class="avatar-img rounded-circle self-avatar" alt="">
+                                </div>
+                            </div>
+                            <h4 class="text-center m-t-20 self-name">
+                            </h4>
+
+                            <div class="row text-center p-b-10">
+                                <div class="col">
+                                    <a href="#" class="show-cookies">
+                                        <h3 class="mdi mdi-cookie"></h3>
+                                        <div class="text-overline">Cookie</div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="show-qrcode">
+                                        <h3 class=" mdi mdi-qrcode"></h3>
+                                        <div class="text-overline">QR Code</div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="show-token">
+                                        <h3 class=" mdi mdi-lock"></h3>
+                                        <div class="text-overline">Token</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card m-b-30" id="smart-agent-download-story" style="display: none;">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Tải Story">
+                                Download Story
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Extension nhận diện được bạn đang mở một địa chỉ Story Facebook. Bạn có muốn tải Story này?">
+                                Extension detected that you're viewing a Facebook Story, do you want to download?
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <button id="download-story" class="btn btn-success" lang-vi="Tải ngay">Download</button>
+                        </div>
+                    </div>
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Quản lí Tính năng">
+                                Manage Features
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Bạn có thể quản lí tính năng ở đây hoặc trong Trang quản lí đầy đủ.">
+                                You can quickly manage features right here or in full-feature dashboard.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class=" m-b-10">
+                                        <label class="cstm-switch">
+                                            <input type="checkbox" name="option" value="1"
+                                                   data-feature="blockSeenMessages"
+                                                   class="cstm-switch-input system-feature-check">
+                                            <span class="cstm-switch-indicator "></span>
+                                            <span class="cstm-switch-description" lang-vi="Chặn Seen Tin Nhắn">Block Seen Messages</span>
+                                        </label>
+                                    </div>
+                                    <div class=" m-b-10">
+                                        <label class="cstm-switch">
+                                            <input type="checkbox" name="option" value="1"
+                                                   data-feature="blockSeenStory"
+                                                   class="cstm-switch-input system-feature-check">
+                                            <span class="cstm-switch-indicator "></span>
+                                            <span class="cstm-switch-description" lang-vi="Chặn Seen Story">Block Seen Story</span>
+                                        </label>
+                                    </div>
+                                    <div class=" m-b-10">
+                                        <label class="cstm-switch">
+                                            <input type="checkbox" name="option" value="1"
+                                                   data-feature="autoReplyMessages"
+                                                   class="cstm-switch-input system-feature-check">
+                                            <span class="cstm-switch-indicator "></span>
+                                            <span class="cstm-switch-description" lang-vi="Tự động Trả lời Tin nhắn">Auto Reply Messages</span>
+                                        </label>
+                                    </div>
+                                    <div class=" m-b-10">
+                                        <label class="cstm-switch">
+                                            <input type="checkbox" name="option" value="1"
+                                                   data-feature="autoInteractions"
+                                                   class="cstm-switch-input system-feature-check">
+                                            <span class="cstm-switch-indicator "></span>
+                                            <span class="cstm-switch-description" lang-vi="Tự động tương tác">Auto Interactions</span>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <button class="nav-link btn btn-block btn-primary open-dashboard" lang-vi="Quản lí tất cả tính năng">
+                                            Manage All Features
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="custom/plugins/core.js"></script>
+<script src="custom/plugins/facebook.js"></script>
+
+<script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="assets/vendor/popper/popper.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/vendor/listjs/listjs.min.js"></script>
+<script src="assets/vendor/moment/moment.min.js"></script>
+<script src="assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="assets/js/atmos.min.js"></script>
+<script src="assets/js/dashboard-01.js"></script>
+<script src="/custom/plugins/qrcode.js"></script>
+
+<script src="custom/pages/global.js"></script>
+<script src="custom/pages/popup.js"></script>
+
+</body>
+</html>

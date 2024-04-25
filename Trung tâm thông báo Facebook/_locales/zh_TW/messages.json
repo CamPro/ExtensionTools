@@ -1,0 +1,11 @@
+{
+   "application_description": {
+      "message": "Facebook (TM) 的通知中心提供了警報的概述: 通知、信使、組和事件"
+   },
+   "application_shortname": {
+      "message": "NC for Facebook"
+   },
+   "application_title": {
+      "message": "Facebook 通知中心"
+   }
+}

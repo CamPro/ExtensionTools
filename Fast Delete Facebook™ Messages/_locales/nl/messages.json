@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Annuleer"
+   },
+   "confirm_text": {
+      "message": "Weet je zeker dat je alle berichten wilt verwijderen?"
+   },
+   "confirm_warning": {
+      "message": "Doe voorzichtig!"
+   },
+   "confirm_yes": {
+      "message": "Ja, verwijderen"
+   },
+   "default_title": {
+      "message": "Snel Facebook™ -meldingen verwijderen"
+   },
+   "description": {
+      "message": "Verwijder gewoon alle Facebook™ -berichten in Chrome in slechts 2 klikken"
+   },
+   "name": {
+      "message": "Snel Facebook™ -meldingen verwijderen"
+   },
+   "please_rate": {
+      "message": "Beoordeel ons 5 sterren"
+   },
+   "popup_btn_step_1": {
+      "message": "Stap 1. Open Berichten"
+   },
+   "popup_btn_step_2": {
+      "message": "Stap 2. Verwijder alle berichten"
+   },
+   "popup_header_title": {
+      "message": "Snel Facebook™ -meldingen verwijderen"
+   },
+   "popup_title": {
+      "message": "Snel Facebook™ -meldingen verwijderen"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Alle berichten zijn verwijderd. Als je deze tool leuk vindt, geef hem dan 5 sterren in de Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Succes"
+   }
+}

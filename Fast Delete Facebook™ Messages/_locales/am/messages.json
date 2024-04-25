@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " ሰርዝ"
+   },
+   "confirm_text": {
+      "message": "እርግጠኛ ነዎት ሁሉንም መልዕክቶች መሰረዝ ይፈልጋሉ?"
+   },
+   "confirm_warning": {
+      "message": "ተጥንቀቅ!"
+   },
+   "confirm_yes": {
+      "message": "አዎ, ሰርዝ"
+   },
+   "default_title": {
+      "message": "ፈጣን የ Facebook™ መልዕክቶች ሰርዝ"
+   },
+   "description": {
+      "message": "በ 2 ጠቅ ብቻ ውስጥ ሁሉንም የ Facebook™ መልዕክቶች በ Chrome ውስጥ ይደምስሱ"
+   },
+   "name": {
+      "message": "ፈጣን የ Facebook™ መልዕክቶች ሰርዝ"
+   },
+   "please_rate": {
+      "message": "5 ኮከቦች ይስጡን"
+   },
+   "popup_btn_step_1": {
+      "message": "ደረጃ 1 መልእክቶችን ክፈት"
+   },
+   "popup_btn_step_2": {
+      "message": "ደረጃ 2: ሁሉንም መልእክቶች ሰርዝ"
+   },
+   "popup_header_title": {
+      "message": "ፈጣን የ Facebook™ መልዕክቶች ሰርዝ"
+   },
+   "popup_title": {
+      "message": "ፈጣን የ Facebook™ መልዕክቶች ሰርዝ"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "ሁሉም መልዕክቶች ተወግደዋል. ይህን መሣሪያ ከወደዱት - እባክዎ በ Chrome ድር ሱቅ 5 ኮከቦች ይስጡት! :)"
+   },
+   "success_delete_all_title": {
+      "message": "ስኬት"
+   }
+}

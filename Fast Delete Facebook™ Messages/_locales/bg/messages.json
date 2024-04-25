@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Отказ"
+   },
+   "confirm_text": {
+      "message": "Наистина ли искате да изтриете всички съобщения?"
+   },
+   "confirm_warning": {
+      "message": "Бъди внимателен!"
+   },
+   "confirm_yes": {
+      "message": "Да, изтрийте"
+   },
+   "default_title": {
+      "message": "Бързо изтриване на Facebook™ съобщения"
+   },
+   "description": {
+      "message": "Просто изтрийте всички съобщения Facebook™ в Chrome само с 2 кликвания"
+   },
+   "name": {
+      "message": "Fast Delete Facebook™ Messages - Бързо изтриване на Facebook™ съобщения"
+   },
+   "please_rate": {
+      "message": "Оценете ни 5 звезди"
+   },
+   "popup_btn_step_1": {
+      "message": "1. Отворете Съобщения"
+   },
+   "popup_btn_step_2": {
+      "message": "2. Изтрийте всички съобщения"
+   },
+   "popup_header_title": {
+      "message": "Бързо изтриване на Facebook™ съобщения"
+   },
+   "popup_title": {
+      "message": "Бързо изтриване на Facebook™ съобщения"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Всички съобщения са премахнати. Ако харесвате този инструмент, моля, оценете го с 5 звезди в уеб магазина на Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "успех"
+   }
+}

@@ -1,0 +1,5 @@
+﻿This patch onyl work for 4.0.0.3_0 version. If your version is different, then try manual method of loading unpacked extension.
+
+For detail, visit my channel or blog.
+► Website:	➜https://www.tigerzplace.com/
+► YouTube:	➜https://youtube.com/tigerzplace

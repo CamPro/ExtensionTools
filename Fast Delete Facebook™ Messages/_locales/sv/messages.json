@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Annullera"
+   },
+   "confirm_text": {
+      "message": "Är du säker på att du vill radera alla meddelanden?"
+   },
+   "confirm_warning": {
+      "message": "Var försiktig!"
+   },
+   "confirm_yes": {
+      "message": "Ja, ta bort"
+   },
+   "default_title": {
+      "message": "Snabbt radera Facebook™ -meddelanden"
+   },
+   "description": {
+      "message": "Ta bort alla Facebook™ -meddelanden i Chrome bara om 2 klick"
+   },
+   "name": {
+      "message": "Snabbt radera Facebook™ -meddelanden"
+   },
+   "please_rate": {
+      "message": "Betygsätt oss 5 stjärnor"
+   },
+   "popup_btn_step_1": {
+      "message": "Steg 1. Öppna meddelanden"
+   },
+   "popup_btn_step_2": {
+      "message": "Steg 2. Ta bort alla meddelanden"
+   },
+   "popup_header_title": {
+      "message": "Snabbt radera Facebook™ -meddelanden"
+   },
+   "popup_title": {
+      "message": "Snabbt radera Facebook™ -meddelanden"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Alla meddelanden har tagits bort. Om du gillar det här verktyget - betygsätt det 5 stjärnor på Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Framgång"
+   }
+}

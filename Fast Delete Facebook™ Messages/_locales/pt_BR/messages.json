@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Cancelar"
+   },
+   "confirm_text": {
+      "message": "Tem certeza de que deseja excluir todas as mensagens?"
+   },
+   "confirm_warning": {
+      "message": "Seja cuidadoso!"
+   },
+   "confirm_yes": {
+      "message": "Sim, excluir"
+   },
+   "default_title": {
+      "message": "Apague rapidamente as mensagens do Facebook™"
+   },
+   "description": {
+      "message": "Basta apagar todas as mensagens do Facebook™ em apenas dois cliques."
+   },
+   "name": {
+      "message": "Apague rapidamente as mensagens do Facebook™"
+   },
+   "please_rate": {
+      "message": "Avalie-nos 5 estrelas"
+   },
+   "popup_btn_step_1": {
+      "message": "Passo 1. Abra Mensagens"
+   },
+   "popup_btn_step_2": {
+      "message": "Etapa 2. Excluir Todas as Mensagens"
+   },
+   "popup_header_title": {
+      "message": "Apague rapidamente as mensagens do Facebook™"
+   },
+   "popup_title": {
+      "message": "Apague rapidamente as mensagens do Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Todas as mensagens foram removidas. Se você gosta dessa ferramenta, classifique-a como 5 estrelas na Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Sucesso"
+   }
+}

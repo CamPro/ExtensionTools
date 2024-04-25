@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Скасувати"
+   },
+   "confirm_text": {
+      "message": "Ви впевнені, що хочете видалити всі повідомлення?"
+   },
+   "confirm_warning": {
+      "message": "Будь обережні!"
+   },
+   "confirm_yes": {
+      "message": "Так, видалити"
+   },
+   "default_title": {
+      "message": "Швидке видалення повідомлень Facebook™"
+   },
+   "description": {
+      "message": "Видаліть всі повідомлення Facebook™ в Chrome всього за 2 кліки"
+   },
+   "name": {
+      "message": "Швидке видалення повідомлень Facebook™"
+   },
+   "please_rate": {
+      "message": "Поставте нам 5 зірок"
+   },
+   "popup_btn_step_1": {
+      "message": "Крок 1. Відкрийте повідомлення"
+   },
+   "popup_btn_step_2": {
+      "message": "Крок 2. Видалити всі повідомлення"
+   },
+   "popup_header_title": {
+      "message": "Швидке видалення повідомлень Facebook™"
+   },
+   "popup_title": {
+      "message": "Швидке видалення повідомлень Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Усі повідомлення були вилучені. Якщо вам подобається цей інструмент, будь-ласка, оцініть екстеншен у Веб-магазині Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Успіх"
+   }
+}

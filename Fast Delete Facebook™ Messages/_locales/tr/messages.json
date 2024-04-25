@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "İptal etmek"
+   },
+   "confirm_text": {
+      "message": "Tüm mesajları silmek istediğinizden emin misiniz?"
+   },
+   "confirm_warning": {
+      "message": "Dikkatli ol!"
+   },
+   "confirm_yes": {
+      "message": "Evet, sil"
+   },
+   "default_title": {
+      "message": "Hızlı Sil Facebook™ Mesajları"
+   },
+   "description": {
+      "message": "Sadece tüm tıklamayla Chrome'daki tüm Facebook ™ mesajlarını silmeniz yeterlidir"
+   },
+   "name": {
+      "message": "Hızlı Sil Facebook™ Mesajları"
+   },
+   "please_rate": {
+      "message": "Bize 5 yıldız ver"
+   },
+   "popup_btn_step_1": {
+      "message": "Adım 1. Açık Mesajlar"
+   },
+   "popup_btn_step_2": {
+      "message": "Adım 2. Tüm Mesajları Sil"
+   },
+   "popup_header_title": {
+      "message": "Hızlı Sil Facebook™ Mesajları"
+   },
+   "popup_title": {
+      "message": "Hızlı Sil Facebook™ Mesajları"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Tüm mesajlar kaldırıldı. Bu aracı beğenirseniz - lütfen Chrome Web Mağazası'nda 5 yıldız değerlendirin! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Başarı"
+   }
+}

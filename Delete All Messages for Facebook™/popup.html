@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fbMessageCleanerApp" ng-controller="fbMessageCleanerCtrl" ng-csp>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="__MSG_app_name__"></title>
+    <link href="css/libs/angular-csp.css " rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <style>
+        div.popup_app_popup_note {
+            text-align: center;
+            padding: 5px 10px;
+        }
+
+        a.popup_footer_a_link {
+            width: 100px;
+            display: inline-block;
+        }
+
+        div.b-state__content {
+            height: 170px
+        }
+
+        div.big-btn-holder {
+            width: 400px
+        }
+    </style>
+
+
+</head>
+
+<body>
+<nav class="toolbar">
+    <div class="b-logo">
+        <div class="b-logo__name js-logo" style="font-size: 13px; color: white">
+            Delete All Messages for Facebook™
+        </div>
+    </div>
+</nav>
+
+<div class="b-state__content state-{{contentViewScreen}}" ng-hide="contentViewScreen == '0'">
+    <div class="alert-msg"
+         ng-show="fbCleanerReport != null && fbCleanerReport.msg != null && fbCleanerReport.msg != ''">
+        <p ng-class="{'alert' : fbCleanerReport.type == 'alert', 'error' : fbCleanerReport.type == 'error', 'warrning' : fbCleanerReport.type == 'warrning'}">
+            {{fbCleanerReport.msg}}
+        </p>
+    </div>
+    <p class="note" ng-hide="fbCleanerReport && fbCleanerReport.msg != null && fbCleanerReport.msg != ''"
+       data-i18n="__MSG_app_warning__">
+    </p>
+    <div class="big-btn-holder">
+        <div class="big-rounded-btn"
+             ng-class="{'analyze':(contentViewScreen == '1'), 'clean': contentViewScreen == '3'}"
+             ng-show="contentViewScreen != '3'">
+
+            <div id="fbMsgCleanerAnalyze" ng-click="startAnalyze()" ng-show="contentViewScreen == '1'  ">
+                <a href="#" class="b-button b-button-blue b-button-selected b-button-long b-state__button"
+                   id="fbMsgCleanerAnalyzeIcon">Find messages to delete</a>
+
+            </div>
+            <div ng-hide="contentViewScreen != '2'" style="height: 110px">
+                <div class="circle"></div>
+                <div class="circle1">
+                    <!--<div class="percent ">{{progressStatus}}%</div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="  clean" ng-hide="contentViewScreen != '3' ">
+            <a href="#" id="fbMsgCleanerDeleteIcon"
+               class="b-button b-button-blue b-button-selected b-button-long b-state__button" ng-click="startDeletion()"
+               data-i18n="__MSG_app_popup_btn_delete_all__">Remove All</a>
+        </div>
+        <div ng-hide="contentViewScreen != '4' " style="height: 110px">
+            <div class="circle"></div>
+            <div class="circle1"></div>
+            <p style="display: none" data-i18n="__MSG_app_popup_progress__"></p>
+        </div>
+
+        <p data-i18n="__MSG_app_popup_or__" style="margin: 5px" ng-hide="contentViewScreen != '3' "></p>
+
+        <div class=" clean" ng-hide="contentViewScreen != '3' ">
+            <a href="#" class="b-button b-button-blue b-button-selected b-button-long b-state__button"
+               ng-click="initSelectAndDelete()" data-i18n="__MSG_app_suka__">Choose & Delete</a>
+        </div>
+    </div>
+</div>
+<div class='popup_app_popup_note' data-i18n="__MSG_app_popup_note__"></div>
+
+
+<footer>
+    <a class="popup_footer_a_link"
+       href="https://chrome.google.com/webstore/detail/delete-all-messages-for-f/idnpnpdgfopkoibbhemhdinhcbghpokf"
+       target="_blank">Rate 5 Stars</a>
+</footer>
+<script type="text/javascript" src="js/libs/angular.js"></script>
+<script type="text/javascript" src="js/constants.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/localize.js"></script>
+</body>
+</html>

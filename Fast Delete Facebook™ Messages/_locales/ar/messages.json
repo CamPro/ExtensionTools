@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " إلغاء"
+   },
+   "confirm_text": {
+      "message": "هل أنت متأكد من أنك تريد حذف كل الرسائل؟"
+   },
+   "confirm_warning": {
+      "message": "كن حذرا!"
+   },
+   "confirm_yes": {
+      "message": "نعم ، احذف"
+   },
+   "default_title": {
+      "message": "سريع حذف Facebook™ الرسائل"
+   },
+   "description": {
+      "message": "ما عليك سوى حذف جميع رسائل Facebook™ في Chrome بنقرتين فقط"
+   },
+   "name": {
+      "message": "سريع حذف Facebook™ الرسائل"
+   },
+   "please_rate": {
+      "message": "قيمنا 5 نجوم"
+   },
+   "popup_btn_step_1": {
+      "message": "الخطوة 1. افتح الرسائل"
+   },
+   "popup_btn_step_2": {
+      "message": "الخطوة 2. حذف جميع الرسائل"
+   },
+   "popup_header_title": {
+      "message": "سريع حذف Facebook™ الرسائل"
+   },
+   "popup_title": {
+      "message": "سريع حذف Facebook™ الرسائل"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "تمت إزالة جميع الرسائل. إذا كنت تحب هذه الأداة - يرجى تقييمها بـ 5 نجوم على سوق Chrome الإلكتروني! :)"
+   },
+   "success_delete_all_title": {
+      "message": "نجاح"
+   }
+}

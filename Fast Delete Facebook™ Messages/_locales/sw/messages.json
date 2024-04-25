@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Futa"
+   },
+   "confirm_text": {
+      "message": "Una uhakika unataka kufuta ujumbe wote?"
+   },
+   "confirm_warning": {
+      "message": "Kuwa mwangalifu!"
+   },
+   "confirm_yes": {
+      "message": "Ndiyo, futa"
+   },
+   "default_title": {
+      "message": "Futa haraka ujumbe wa Facebook™"
+   },
+   "description": {
+      "message": "Tu kufuta ujumbe wote wa Facebook™ kwenye Chrome tu kwenye vifungo 2"
+   },
+   "name": {
+      "message": "Futa haraka ujumbe wa Facebook™"
+   },
+   "please_rate": {
+      "message": "Tathmini kiwango cha nyota 5"
+   },
+   "popup_btn_step_1": {
+      "message": "Hatua ya 1. Fungua Ujumbe"
+   },
+   "popup_btn_step_2": {
+      "message": "Hatua ya 2. Futa Ujumbe Wote"
+   },
+   "popup_header_title": {
+      "message": "Futa haraka ujumbe wa Facebook™"
+   },
+   "popup_title": {
+      "message": "Futa haraka ujumbe wa Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Ujumbe wote umeondolewa. Ikiwa ungependa chombo hiki - tafadhali upeze nyota 5 kwenye Duka la Wavuti la Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Mafanikio"
+   }
+}

@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Peruuttaa"
+   },
+   "confirm_text": {
+      "message": "Haluatko varmasti poistaa kaikki viestit?"
+   },
+   "confirm_warning": {
+      "message": "Ole varovainen!"
+   },
+   "confirm_yes": {
+      "message": "Kyllä, poista"
+   },
+   "default_title": {
+      "message": "Nopea Poista Facebook™ -viestit"
+   },
+   "description": {
+      "message": "Poista kaikki Facebook™ viestit Chrome vain 2 napsautuksella"
+   },
+   "name": {
+      "message": "Nopea Poista Facebook™ -viestit"
+   },
+   "please_rate": {
+      "message": "Arvioi 5 tähteä"
+   },
+   "popup_btn_step_1": {
+      "message": "Vaihe 1. Avaa viestit"
+   },
+   "popup_btn_step_2": {
+      "message": "Vaihe 2. Poista kaikki viestit"
+   },
+   "popup_header_title": {
+      "message": "Nopea Poista Facebook™ -viestit"
+   },
+   "popup_title": {
+      "message": "Nopea Poista Facebook™ -viestit"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Kaikki viestit on poistettu. Jos pidät tästä työkalusta - arvostathan sitä 5 tähteä Chrome Web Storessa! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Menestys"
+   }
+}

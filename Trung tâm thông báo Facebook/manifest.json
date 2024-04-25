@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "eventPage.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "content.js" ],
+      "matches": [ "http://www.sociotrope.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpPpICy/68zX9gxTuNtGRBLxRZFml8LkaTH7rDu/OHHvk0aa2PPKboWJwlefXKrdRAWODTmzJYGqjMEQlGKJvTkpo8k8SoUNcm0e/Rv4f9vhhrPtiCgjVtg6PT0d713Yeep5kEG3VSkkXs1NanTzVRJwfV5VF94ea+lGsUE6eOFQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_application_title__",
+   "permissions": [ "contextMenus", "alarms", "https://www.facebook.com/", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.3",
+   "web_accessible_resources": [ "img/*.png" ]
+}

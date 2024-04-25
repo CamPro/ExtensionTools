@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "ยกเลิก"
+   },
+   "confirm_text": {
+      "message": "คุณแน่ใจหรือไม่ว่าต้องการลบข้อความทั้งหมด?"
+   },
+   "confirm_warning": {
+      "message": "ระวัง!"
+   },
+   "confirm_yes": {
+      "message": "ใช่ลบ"
+   },
+   "default_title": {
+      "message": "ข้อความ Facebook™ถูกลบอย่างรวดเร็ว"
+   },
+   "description": {
+      "message": "เพียงแค่ลบข้อความ Facebook™ทั้งหมดใน Chrome เพียงแค่ 2 ครั้งเท่านั้น ลบข้อความร่อซู้ลด้วยข้อความนี้ให้สะอาดทันที"
+   },
+   "name": {
+      "message": "ข้อความ Facebook™ถูกลบอย่างรวดเร็ว"
+   },
+   "please_rate": {
+      "message": "ให้คะแนนเรา 5 ดาว"
+   },
+   "popup_btn_step_1": {
+      "message": "ขั้นตอนที่ 1. เปิดข้อความ"
+   },
+   "popup_btn_step_2": {
+      "message": "ขั้นตอนที่ 2. ลบข้อความทั้งหมด"
+   },
+   "popup_header_title": {
+      "message": "ข้อความ Facebook™ถูกลบอย่างรวดเร็ว"
+   },
+   "popup_title": {
+      "message": "ข้อความ Facebook™ถูกลบอย่างรวดเร็ว"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "ลบข้อความทั้งหมดแล้ว หากคุณชอบเครื่องมือนี้โปรดให้คะแนน 5 ดาวใน Chrome เว็บสโตร์! :)"
+   },
+   "success_delete_all_title": {
+      "message": "ความสำเร็จ"
+   }
+}

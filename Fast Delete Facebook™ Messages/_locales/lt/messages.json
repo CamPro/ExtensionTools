@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Atšaukti"
+   },
+   "confirm_text": {
+      "message": "Ar tikrai norite ištrinti visus pranešimus?"
+   },
+   "confirm_warning": {
+      "message": "Būk atsargus!"
+   },
+   "confirm_yes": {
+      "message": "Taip, ištrinti"
+   },
+   "default_title": {
+      "message": "Greitas Facebook™ pranešimų ištrynimas"
+   },
+   "description": {
+      "message": "Tiesiog ištrinkite visus Facebook™ pranešimus Chrome tik 2 paspaudimuose"
+   },
+   "name": {
+      "message": "Greitas Facebook™ pranešimų ištrynimas"
+   },
+   "please_rate": {
+      "message": "Įvertink mus 5 žvaigždutes"
+   },
+   "popup_btn_step_1": {
+      "message": "Žingsnis 1. Atidaryti pranešimus"
+   },
+   "popup_btn_step_2": {
+      "message": "Žingsnis 2. Ištrinti visus pranešimus"
+   },
+   "popup_header_title": {
+      "message": "Greitas Facebook™ pranešimų ištrynimas"
+   },
+   "popup_title": {
+      "message": "Greitas Facebook™ pranešimų ištrynimas"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Visi pranešimai buvo pašalinti. Jei jums patinka šis įrankis, prašome įvertinkite 5 žvaigždutes Chrome internetinėje parduotuvėje! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Sėkmė"
+   }
+}

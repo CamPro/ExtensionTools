@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "રદ કરો"
+   },
+   "confirm_text": {
+      "message": "શું તમે ખરેખર બધા સંદેશા કાઢી નાખવા માંગો છો?"
+   },
+   "confirm_warning": {
+      "message": "સાવચેત રહો!"
+   },
+   "confirm_yes": {
+      "message": "હા, કાઢી નાખો"
+   },
+   "default_title": {
+      "message": "Facebook™ સંદેશા ફાસ્ટ કાઢી નાંખો"
+   },
+   "description": {
+      "message": "બસ chrome તમામ Facebook™ સંદેશાઓ માત્ર 2 ક્લિક્સ માં કાઢી નાંખો. એક જ સમયે આ સંદેશાઓ ક્લીનર સાથે સંદેશા સંદેશા કાઢી નાખો"
+   },
+   "name": {
+      "message": "Fast Delete Facebook™ Messages - Facebook™ સંદેશા ફાસ્ટ કાઢી નાંખો"
+   },
+   "please_rate": {
+      "message": "અમારો 5 તારા આપો"
+   },
+   "popup_btn_step_1": {
+      "message": "પગલું 1. સંદેશાઓ ખોલો"
+   },
+   "popup_btn_step_2": {
+      "message": "પગલું 2. બધા સંદેશા કાઢી નાખો"
+   },
+   "popup_header_title": {
+      "message": "Facebook™ સંદેશા ફાસ્ટ કાઢી નાંખો"
+   },
+   "popup_title": {
+      "message": "Facebook™ સંદેશા ફાસ્ટ કાઢી નાંખો"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "બધા સંદેશાઓ દૂર કરવામાં આવ્યા છે જો તમને આ સાધન ગમે છે - તો કૃપા કરીને તેને Chrome વેબ દુકાન પર 5 તારા રેટ કરો! :)"
+   },
+   "success_delete_all_title": {
+      "message": "સફળતા"
+   }
+}

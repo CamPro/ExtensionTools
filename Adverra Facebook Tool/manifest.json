@@ -1,0 +1,29 @@
+{
+   "author": "Adverra Softwere",
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "adverra_icon.png",
+         "24": "adverra_icon.png",
+         "32": "adverra_icon.png"
+      },
+      "default_title": "Adverra Facebook Tool New"
+   },
+   "content_security_policy": "script-src 'unsafe-inline'  'self' 'unsafe-eval' https://cdn.jsdelivr.net https://cdn.rawgit.com https://cdn.datatables.net https://cdnjs.cloudflare.com https://nightly.datatables.net;  object-src https://www.google-analytics.com https://www.google.com 'self'",
+   "description": "Adverra Facebook Tool",
+   "icons": {
+      "128": "adverra_icon.png",
+      "16": "adverra_icon.png",
+      "48": "adverra_icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv9WvDgtozRVaGKnxzrRuxGRbvH/zThwiP7kc+ktD3vmqkAa+4NE5oIEkPDrYJLKcyWNuGcio7XlcxV3yes1mWIvGgIGYAOtt/ZkdEKwrfU4tyDzRf2PRyprr1PM+rK/C9gxoXOafArjNv91YgQf5z67bnB0ItOZwx4MQ3SNT6/ofQWjM8PXcmqp0dbCnnehLtsny7VoBTMBa+TbKwMQppGC49obFZJStsbuDrzt//Qf+ApY1I2vWwd0r/rXeXO9XTo2+sgO3/qUn3v8Pi0arwxZmqAwWZJwEVYM5ps46IlII7wXaVRk2Ywl85ksLeiNU8bvkx7ycg29zkptBTZ3PWwIDAQAB",
+   "manifest_version": 2,
+   "name": "Adverra Facebook Tool",
+   "permissions": [ "storage", "*://*.facebook.com/*", "*://*.adverrasale.com/*", "notifications", "tabs", "contextMenus", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.8.6",
+   "web_accessible_resources": [ "*", "images/*", "ui/*", "/images/*.*" ]
+}

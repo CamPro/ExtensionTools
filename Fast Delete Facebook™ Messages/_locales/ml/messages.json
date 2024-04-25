@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "റദ്ദാക്കുക"
+   },
+   "confirm_text": {
+      "message": "എല്ലാ സന്ദേശങ്ങളും ഇല്ലാതാക്കണമെന്ന് തീർച്ചയാണോ?"
+   },
+   "confirm_warning": {
+      "message": "ശ്രദ്ധാലുവായിരിക്കുക!"
+   },
+   "confirm_yes": {
+      "message": "അതെ, ഇല്ലാതാക്കുക"
+   },
+   "default_title": {
+      "message": "വേഗത്തിൽ Facebook™ സന്ദേശങ്ങൾ ഇല്ലാതാക്കുക"
+   },
+   "description": {
+      "message": "വെറും 2 ക്ലിക്കുകളിലൂടെ Chrome- ൽ എല്ലാ Facebook™ സന്ദേശങ്ങളും വെറുതെ ഇല്ലാതാക്കുക"
+   },
+   "name": {
+      "message": "വേഗത്തിൽ Facebook™ സന്ദേശങ്ങൾ ഇല്ലാതാക്കുക"
+   },
+   "please_rate": {
+      "message": "ഞങ്ങളെ 5 നക്ഷത്രങ്ങളാക്കുക"
+   },
+   "popup_btn_step_1": {
+      "message": "ഘട്ടം 1. തുറക്കുക സന്ദേശങ്ങൾ"
+   },
+   "popup_btn_step_2": {
+      "message": "ഘട്ടം 2. എല്ലാ സന്ദേശങ്ങളും ഇല്ലാതാക്കുക"
+   },
+   "popup_header_title": {
+      "message": "വേഗത്തിൽ Facebook™ സന്ദേശങ്ങൾ ഇല്ലാതാക്കുക"
+   },
+   "popup_title": {
+      "message": "വേഗത്തിൽ Facebook™ സന്ദേശങ്ങൾ ഇല്ലാതാക്കുക"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "എല്ലാ സന്ദേശങ്ങളും നീക്കംചെയ്തു. നിങ്ങൾക്ക് ഈ ഉപകരണം ഇഷ്ടപ്പെട്ടിട്ടുണ്ടെങ്കിൽ - ഇത് Chrome വെബ് സ്റ്റോറിൽ 5 നക്ഷത്രങ്ങളെ റേറ്റുചെയ്യുക! :)"
+   },
+   "success_delete_all_title": {
+      "message": "വിജയം"
+   }
+}

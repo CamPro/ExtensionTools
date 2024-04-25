@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Zrušení"
+   },
+   "confirm_text": {
+      "message": "Opravdu chcete smazat všechny zprávy?"
+   },
+   "confirm_warning": {
+      "message": "Buď opatrný!"
+   },
+   "confirm_yes": {
+      "message": "Ano, odstraňte"
+   },
+   "default_title": {
+      "message": "Rychle odstranit zprávy Facebook™"
+   },
+   "description": {
+      "message": "Jednoduše odstraňte všechny zprávy Facebook™ v prohlížeči Chrome pouze za 2 kliknutí"
+   },
+   "name": {
+      "message": "Rychle odstranit zprávy Facebook™"
+   },
+   "please_rate": {
+      "message": "Ohodnoťte nás 5 hvězdiček"
+   },
+   "popup_btn_step_1": {
+      "message": "Krok 1. Otevřete Zprávy"
+   },
+   "popup_btn_step_2": {
+      "message": "Krok 2. Odstranit všechny zprávy"
+   },
+   "popup_header_title": {
+      "message": "Rychle odstranit zprávy Facebook™"
+   },
+   "popup_title": {
+      "message": "Rychle odstranit zprávy Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Všechny zprávy byly odstraněny. Pokud se vám tento nástroj líbí - ohodnoťte 5 hvězdiček v Internetovém obchodě Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Úspěch"
+   }
+}

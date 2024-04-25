@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Отказати"
+   },
+   "confirm_text": {
+      "message": "Да ли сте сигурни да желите избрисати све поруке?"
+   },
+   "confirm_warning": {
+      "message": "Бити пажљив!"
+   },
+   "confirm_yes": {
+      "message": "Да, избрисати"
+   },
+   "default_title": {
+      "message": "Брзо Брисање Facebook™ порука"
+   },
+   "description": {
+      "message": "Једноставно избришите све Facebook™ поруке у Chrome-у само у 2 кликова"
+   },
+   "name": {
+      "message": "Брзо Брисање Facebook™ порука"
+   },
+   "please_rate": {
+      "message": "Оцените нас 5 звездица"
+   },
+   "popup_btn_step_1": {
+      "message": "Корак 1. Отвори поруке"
+   },
+   "popup_btn_step_2": {
+      "message": "Корак 2. Обриши све поруке"
+   },
+   "popup_header_title": {
+      "message": "Брзо Брисање Facebook™ порука"
+   },
+   "popup_title": {
+      "message": "Брзо Брисање Facebook™ порука"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Све поруке су уклоњене. Ако вам се свиђа ова алатка - оцените је на 5 звјездица у Chrome веб-продавници! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Успех"
+   }
+}

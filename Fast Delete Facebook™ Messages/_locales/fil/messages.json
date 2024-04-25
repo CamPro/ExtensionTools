@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Kanselahin"
+   },
+   "confirm_text": {
+      "message": "Sigurado ka bang gusto mong tanggalin ang lahat ng mga mensahe?"
+   },
+   "confirm_warning": {
+      "message": "Mag-ingat ka!"
+   },
+   "confirm_yes": {
+      "message": "Oo, tanggalin"
+   },
+   "default_title": {
+      "message": "Mabilis na Tanggalin ang Mga Mensahe ng Facebook™"
+   },
+   "description": {
+      "message": "Tanggalin lang ang lahat ng mga mensahe ng Facebook™ sa Chrome sa loob lamang ng 2 mga pag-click"
+   },
+   "name": {
+      "message": "Mabilis na Tanggalin ang Mga Mensahe ng Facebook™"
+   },
+   "please_rate": {
+      "message": "Rate sa amin 5 bituin"
+   },
+   "popup_btn_step_1": {
+      "message": "Hakbang 1. Buksan ang Mga Mensahe"
+   },
+   "popup_btn_step_2": {
+      "message": "Hakbang 2. Tanggalin ang Lahat ng Mga Mensahe"
+   },
+   "popup_header_title": {
+      "message": "Mabilis na Tanggalin ang Mga Mensahe ng Facebook™"
+   },
+   "popup_title": {
+      "message": "Mabilis na Tanggalin ang Mga Mensahe ng Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Ang lahat ng mga mensahe ay inalis. Kung gusto mo ang tool na ito - mangyaring i-rate ito 5 bituin sa Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Tagumpay"
+   }
+}

@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Afbestille"
+   },
+   "confirm_text": {
+      "message": "Er du sikker på, at du vil slette alle meddelelser?"
+   },
+   "confirm_warning": {
+      "message": "Vær forsigtig!"
+   },
+   "confirm_yes": {
+      "message": "Ja, slet"
+   },
+   "default_title": {
+      "message": "Hurtig Slet Facebook™ Beskeder"
+   },
+   "description": {
+      "message": "Du skal blot slette alle Facebook™ -meddelelser i Chrome kun inden for 2 klik"
+   },
+   "name": {
+      "message": "Hurtig Slet Facebook™ Beskeder"
+   },
+   "please_rate": {
+      "message": "Bedøm os 5 stjerner"
+   },
+   "popup_btn_step_1": {
+      "message": "Trin 1. Åbn meddelelser"
+   },
+   "popup_btn_step_2": {
+      "message": "Trin 2. Slet alle meddelelser"
+   },
+   "popup_header_title": {
+      "message": "Hurtig Slet Facebook™ Beskeder"
+   },
+   "popup_title": {
+      "message": "Hurtig Slet Facebook™ Beskeder"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Alle meddelelser er blevet fjernet. Hvis du kan lide dette værktøj - bedøm det 5 stjerner på Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Succes"
+   }
+}

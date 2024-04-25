@@ -1,0 +1,35 @@
+{
+   "application_about_line1": {
+      "message": "It displays notifications until the user completes an associated action. Users may choose the order of the icons in the Notification Center. "
+   },
+   "application_about_line2": {
+      "message": "You will find useful the quick links with indicator of new event to your Facebook news feed, messages, calendar, photos, search, pages and notifications. "
+   },
+   "application_about_line3": {
+      "message": "Initially released as an Chrome App in 2013, Notification Center for Facebook was made available as Chrome extension in January 2018."
+   },
+   "application_about_line4": {
+      "message": "All Google Chrome users can see visual alerts about new notifications and messages from Facebook with this plugin. "
+   },
+   "application_about_line5": {
+      "message": "Facebook is a social utility that connects people with friends and others who work, study and live around them. People use Facebook to keep up with friends."
+   },
+   "application_about_line6": {
+      "message": "This Chrome extension is about Notifications for Facebook and have no affiliations with the popular social network website Facebook. All copyrights belong to their respective owners. Facebook doesn’t endorse or sponsor this Chrome extension."
+   },
+   "application_about_line7": {
+      "message": "Thank you for using this Chrome extension with quick links and alerts to Facebook. Feel free to share it with your Facebook Messenger, Whatsapp, Google Plus. "
+   },
+   "application_description": {
+      "message": "Notification Center provides an overview of alerts for Facebook (TM): Notifications, Messenger, Groups and Events"
+   },
+   "application_longname": {
+      "message": "Notification Center for Facebook is a extension for Google Chrome browser that provides an overview of alerts from Facebook."
+   },
+   "application_shortname": {
+      "message": "NC"
+   },
+   "application_title": {
+      "message": "Notification Center: Messenger Groups Events"
+   }
+}

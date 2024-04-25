@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Anulare"
+   },
+   "confirm_text": {
+      "message": "Sigur doriți să ștergeți toate mesajele?"
+   },
+   "confirm_warning": {
+      "message": "Ai grija!"
+   },
+   "confirm_yes": {
+      "message": "Da, ștergeți"
+   },
+   "default_title": {
+      "message": "Ștergeți rapid mesajele Facebook™"
+   },
+   "description": {
+      "message": "Pur și simplu ștergeți toate mesajele Facebook™ din Chrome doar cu 2 clicuri"
+   },
+   "name": {
+      "message": "Ștergeți rapid mesajele Facebook™"
+   },
+   "please_rate": {
+      "message": "Ratează-ne 5 stele"
+   },
+   "popup_btn_step_1": {
+      "message": "Pasul 1. Deschideți Mesaje"
+   },
+   "popup_btn_step_2": {
+      "message": "Pasul 2. Ștergeți toate mesajele"
+   },
+   "popup_header_title": {
+      "message": "Ștergeți rapid mesajele Facebook™"
+   },
+   "popup_title": {
+      "message": "Ștergeți rapid mesajele Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Toate mesajele au fost eliminate. Dacă vă place acest instrument - evaluați-l cu 5 stele în Magazinul web Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Succes"
+   }
+}

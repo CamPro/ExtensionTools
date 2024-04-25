@@ -1,0 +1,35 @@
+{
+	"update_url": "https://clients2.google.com/service/update2/crx",
+		"background": {
+		"page": "background.html"
+	},
+	"browser_action": {
+		"default_icon": "128.png"
+	},
+	"description": "Collection of all Facebook tools.",
+	"icons": {
+		"16": "16.png",
+		"32": "32.png",
+		"48": "48.png",
+		"128": "128.png"
+	},
+	"manifest_version": 2,
+	"name":"Facebook Social Toolkit",
+	"short_name":"FST",
+	"permissions": [
+		"storage",
+		"*://ssl.google-analytics.com/*",
+		"*://*.facebook.com/*",
+		"*://shiftdelee.appspot.com/*",
+		"*://*.getmyscript.com/*",
+		"*://*.appspot.com/*"
+	],
+	"version": "2.2.6",
+	"web_accessible_resources": [
+		"script/gui/fst_box_analytics.js",
+		"images/*",
+		"ui/*",
+		"css/*"
+	],
+	"author": "Dinesh Bhosale"
+}

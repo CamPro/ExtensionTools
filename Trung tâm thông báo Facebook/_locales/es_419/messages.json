@@ -1,0 +1,11 @@
+{
+   "application_description": {
+      "message": "Centro de notificación de Facebook (TM) proporciona un resumen de las alertas de: notificaciones, Messenger, grupos y eventos"
+   },
+   "application_shortname": {
+      "message": "NC for Facebook"
+   },
+   "application_title": {
+      "message": "Centro de notificación de Facebook"
+   }
+}

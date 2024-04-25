@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/pricing.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="" lang-vi="Nâng cấp lên Premium">Upgrade to Premium</h4>
+                        <p class="opacity-75" lang-vi="Gói Premium là cách để bạn ủng hộ tớ và mở khỏa thêm nhiều tính năng thú vị!">
+                            Premium Plans are the ways that you can support me and unlock more interesting features!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Lưu ý">
+                                Notice
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Vui lòng chú ý">
+                                Please be noticed!
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <p lang-vi="Chuyển khoản / Thanh toán với số tiền ít nhất tương ứng với số gói. VUI LÒNG ĐÍNH KÈM các Facebook ID trong nội dung chuyển.">
+                                Please send me at least as the provided amount of plan. <b>DO NOT FORGET</b> to include
+                                Facebook IDs in your Bank Transfer / Paypal Transfer / ... Note.
+                            </p>
+                            <div class="form-group">
+                                <label for="input-id" lang-vi="Facebook ID của bạn là">Your Facebook ID is</label>
+                                <input class="form-control" id="input-id" placeholder="Facebook ID"/>
+                            </div>
+                            <div class="form-group">
+                                <button id="checkPremium" class="btn btn-primary">Check Premium</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="pricing py-5">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Free Tier -->
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center" lang-vi="Miễn phí">Free</h5>
+                                            <h6 class="card-price text-center">$0<span class="period" lang-vi="Trọn đời">/Forever</span>
+                                            </h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li class="text-muted" lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center" lang-vi="Gói tháng">Monthly</h5>
+                                            <h6 class="card-price text-center">
+                                                <a href="#!" lang-vi="VNĐ 40k">$2</a><span class="period">/Month</span></h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="1 Người dùng">1 User</li>
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                            <a href="https://nstudio.vn/mua-monokaitoolkit-buy-monokaitoolkit/" class="btn btn-block btn-primary text-uppercase unlock-feature" lang-vi="Mở khóa">Unlock
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center" lang-vi="Gói tháng đôi">Couple
+                                                Monthly</h5>
+                                            <h6 class="card-price text-center">
+                                                <a href="#!" lang-vi="VNĐ 60k">$3</a><span class="period" lang-vi="/Tháng">/Month</span></h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="2 Người dùng">2 User</li>
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="btn btn-block btn-primary text-uppercase unlock-feature" lang-vi="Mở khóa">Unlock
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center" lang-vi="Trọn đời">Lifetime</h5>
+                                            <h6 class="card-price text-center">
+                                                <a href="#!" lang-vi="VNĐ 200k">$10</a><span class="period" lang-vi=" Trọn đời"> Lifetime</span>
+                                            </h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="1 Người dùng">1 User</li>
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                            <a href="https://nstudio.vn/mua-monokaitoolkit-buy-monokaitoolkit/" class="btn btn-block btn-primary text-uppercase unlock-feature" lang-vi="Mở khóa">Unlock
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center"  lang-vi="Trọn đời bên nhau">Lifetime
+                                                Together</h5>
+                                            <h6 class="card-price text-center">
+                                                <a href="#!" lang-vi="VNĐ 400k">$20</a><span class="period" lang-vi=" Trọn đời"> Lifetime</span>
+                                            </h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="3 Người dùng">3 User</li>
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                            <a href="https://nstudio.vn/mua-monokaitoolkit-buy-monokaitoolkit/" class="btn btn-block btn-primary text-uppercase unlock-feature" lang-vi="Mở khóa">Unlock
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 m-b-40">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center">Team Up!</h5>
+                                            <h6 class="card-price text-center">
+                                                <a href="#!" lang-vi="VNĐ 600K">$30</a> <span class="period" lang-vi="Trọn đời">Lifetime</span>
+                                            </h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li lang-vi="5 Người dùng">5 User</li>
+                                                <li lang-vi="Tính năng Miễn Phí">Free Features
+                                                </li>
+                                                <li lang-vi="Tính năng Trả Phí">Premium
+                                                    Features
+                                                </li>
+                                            </ul>
+                                            <a href="https://nstudio.vn/mua-monokaitoolkit-buy-monokaitoolkit/" class="btn btn-block btn-primary text-uppercase unlock-feature" lang-vi="Mở khóa">Unlock
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/upgrade.js"></script>
+
+</body>
+</html>

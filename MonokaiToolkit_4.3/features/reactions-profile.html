@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="" lang-vi="Thả Cảm Xúc Trang cá nhân">Reaction Profile</h4>
+                        <p class="opacity-75 " lang-vi="Tự động thả cảm xúc trên trang cá nhân của ai đó!">
+                            Auto Reaction on Someone's profile!!!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Reaction Form
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Vui lòng nhập đủ thông tin bên dưới để tiếp tục...">
+                                Please input all information below to continue...
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <label for="inputAddress">User ID</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Input ID or Paste Profile URL here...">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAmount">Amount</label>
+                                <input type="text" class="form-control" id="inputAmount" placeholder="Number of posts">
+                            </div>
+
+                            <div class="m-b-10">
+                                <p class="font-secondary">Reaction Types (Random)</p>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input choice-reaction" id="choiceLike" value="LIKE">
+                                    <label class="custom-control-label" for="choiceLike">Like</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input choice-reaction" id="choiceLove" value="LOVE">
+                                    <label class="custom-control-label " for="choiceLove">Love</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input choice-reaction" id="chocieHaha" value="HAHA">
+                                    <label class="custom-control-label " for="chocieHaha">Haha</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input choice-reaction" id="choiceWow" value="WOW">
+                                    <label class="custom-control-label " for="choiceWow">Wow</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input choice-reaction" id="choiceAngry" value="ANGRY">
+                                    <label class="custom-control-label " for="choiceAngry">Angry</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <p class="font-secondary">
+                                    Reaction Speed
+                                </p>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="slow-speed" name="actionSpeed" class="custom-control-input" value="slow">
+                                    <label class="custom-control-label" for="slow-speed">Slow Speed</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="medium-speed" name="actionSpeed" class="custom-control-input" checked value="medium">
+                                    <label class="custom-control-label" for="medium-speed">Medium Speed</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="fast-speed" name="actionSpeed" class="custom-control-input" value="fast">
+                                    <label class="custom-control-label" for="fast-speed">Fast Speed</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary" id="btn-submit">Start</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                </div>
+                <div class="col-lg-6">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Instruction
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                How to use this feature?
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            Use <code>{{random-string}}</code> / <code>{{random-number}}</code> to have random string and random number in your comment.
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                Log
+                            </h5>
+                            <p class="m-b-0 text-muted">
+                                Action history
+                            </p>
+                        </div>
+                        <div class="card-body" id="log">
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/reactions-profile.js"></script>
+
+</body>
+</html>

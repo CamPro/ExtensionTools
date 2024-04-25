@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "రద్దు"
+   },
+   "confirm_text": {
+      "message": "మీరు ఖచ్చితంగా అన్ని సందేశాలను తొలగించాలనుకుంటున్నారా?"
+   },
+   "confirm_warning": {
+      "message": "జాగ్రత్త!"
+   },
+   "confirm_yes": {
+      "message": "అవును, తొలగించండి"
+   },
+   "default_title": {
+      "message": "ఫాస్ట్ Facebook™ సందేశాలు తొలగించు"
+   },
+   "description": {
+      "message": "కేవలం 2 క్లిక్ల్లో కేవలం Chrome లో అన్ని Facebook™ సందేశాలను తొలగించండి."
+   },
+   "name": {
+      "message": "ఫాస్ట్ Facebook™ సందేశాలు తొలగించు"
+   },
+   "please_rate": {
+      "message": "మాకు 5 నక్షత్రాలను రేట్ చేయండి"
+   },
+   "popup_btn_step_1": {
+      "message": "దశ 1. ఓపెన్ సందేశాలు"
+   },
+   "popup_btn_step_2": {
+      "message": "దశ 2. అన్ని సందేశాలు తొలగించు"
+   },
+   "popup_header_title": {
+      "message": "ఫాస్ట్ Facebook™ సందేశాలు తొలగించు"
+   },
+   "popup_title": {
+      "message": "ఫాస్ట్ Facebook™ సందేశాలు తొలగించు"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "అన్ని సందేశాలు తీసివేయబడ్డాయి. మీరు ఈ ఉపకరణాన్ని కావాలనుకుంటే - Chrome వెబ్ స్టోర్లో 5 నక్షత్రాలను రేట్ చేయండి! :)"
+   },
+   "success_delete_all_title": {
+      "message": "విజయం"
+   }
+}

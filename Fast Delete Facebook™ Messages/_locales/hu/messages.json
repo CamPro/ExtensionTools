@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Megszünteti"
+   },
+   "confirm_text": {
+      "message": "Biztosan törli az összes üzenetet?"
+   },
+   "confirm_warning": {
+      "message": "Légy óvatos!"
+   },
+   "confirm_yes": {
+      "message": "Igen, törölje"
+   },
+   "default_title": {
+      "message": "Gyors törlés Facebook™ üzenetek"
+   },
+   "description": {
+      "message": "Egyszerűen törölje a Facebook™ üzeneteket a Chrome-ban mindössze 2 kattintással"
+   },
+   "name": {
+      "message": "Gyors törlés Facebook™ üzenetek"
+   },
+   "please_rate": {
+      "message": "Osztj nekünk 5 csillagot"
+   },
+   "popup_btn_step_1": {
+      "message": "1. lépés: Nyissa meg az üzeneteket"
+   },
+   "popup_btn_step_2": {
+      "message": "2. lépés: Összes üzenet törlése"
+   },
+   "popup_header_title": {
+      "message": "Gyors törlés Facebook™ üzenetek"
+   },
+   "popup_title": {
+      "message": "Gyors törlés Facebook™ üzenetek"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Az összes üzenetet eltávolították. Ha tetszik ez az eszköz - kérjük, értékelje 5 csillagos a Chrome Internetes áruházban! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Siker"
+   }
+}

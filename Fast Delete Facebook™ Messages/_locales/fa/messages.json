@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "لغو"
+   },
+   "confirm_text": {
+      "message": "آیا مطمئن هستید که می خواهید تمام پیام ها را حذف کنید؟"
+   },
+   "confirm_warning": {
+      "message": "مراقب باش!"
+   },
+   "confirm_yes": {
+      "message": "بله حذف"
+   },
+   "default_title": {
+      "message": "سریع حذف Facebook™ پیام ها"
+   },
+   "description": {
+      "message": "به سادگی تمام پیام های Facebook™ را در Chrome فقط در 2 کلیک حذف کنید."
+   },
+   "name": {
+      "message": "سریع حذف Facebook™ پیام ها"
+   },
+   "please_rate": {
+      "message": "به ما 5 ستاره بده"
+   },
+   "popup_btn_step_1": {
+      "message": "مرحله 1. باز کردن پیام ها"
+   },
+   "popup_btn_step_2": {
+      "message": "مرحله 2 حذف همه پیام ها"
+   },
+   "popup_header_title": {
+      "message": "سریع حذف Facebook™ پیام ها"
+   },
+   "popup_title": {
+      "message": "سریع حذف Facebook™ پیام ها"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "همه پیام ها حذف شده اند اگر این ابزار را دوست دارید - لطفا 5 ستاره در فروشگاه وب Chrome امتیاز دهید! :)"
+   },
+   "success_delete_all_title": {
+      "message": "موفقیت"
+   }
+}

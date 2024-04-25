@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " Cancel · lar"
+   },
+   "confirm_text": {
+      "message": "Estàs segur que vols eliminar tots els missatges?"
+   },
+   "confirm_warning": {
+      "message": "Ves amb compte!"
+   },
+   "confirm_yes": {
+      "message": "Sí, suprimeix"
+   },
+   "default_title": {
+      "message": "Missatges ràpidament per eliminar missatges de Facebook™"
+   },
+   "description": {
+      "message": "Simplement elimineu tots els missatges de Facebook™ a Chrome només en 2 clics"
+   },
+   "name": {
+      "message": "Missatges ràpidament per eliminar missatges de Facebook™"
+   },
+   "please_rate": {
+      "message": "Valora'ns 5 estrelles"
+   },
+   "popup_btn_step_1": {
+      "message": "Pas 1. Obriu missatges"
+   },
+   "popup_btn_step_2": {
+      "message": "Pas 2. Elimina tots els missatges"
+   },
+   "popup_header_title": {
+      "message": "Missatges ràpidament per eliminar missatges de Facebook™"
+   },
+   "popup_title": {
+      "message": "Missatges ràpidament per eliminar missatges de Facebook™"
+   },
+   "short_name": {
+      "message": "Missatges ràpidament per eliminar missatges de Facebook™"
+   },
+   "success_delete_all_messages": {
+      "message": "S'han eliminat tots els missatges. Si t'agrada aquesta eina, cal puntuar 5 estrelles a Chrome Web Store. :)"
+   },
+   "success_delete_all_title": {
+      "message": "Èxit"
+   }
+}

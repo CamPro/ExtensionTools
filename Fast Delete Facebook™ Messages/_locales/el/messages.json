@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Ματαίωση"
+   },
+   "confirm_text": {
+      "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα μηνύματα;"
+   },
+   "confirm_warning": {
+      "message": "Πρόσεχε!"
+   },
+   "confirm_yes": {
+      "message": "Ναι, διαγράψτε"
+   },
+   "default_title": {
+      "message": "Γρήγορη διαγραφή μηνυμάτων Facebook™"
+   },
+   "description": {
+      "message": "Απλά διαγράψτε όλα τα μηνύματα Facebook™ στο Chrome με 2 κλικ"
+   },
+   "name": {
+      "message": "Γρήγορη διαγραφή μηνυμάτων Facebook™"
+   },
+   "please_rate": {
+      "message": "Αξιολογήστε μας 5 αστέρια"
+   },
+   "popup_btn_step_1": {
+      "message": "Βήμα 1. Ανοίξτε τα Μηνύματα"
+   },
+   "popup_btn_step_2": {
+      "message": "Βήμα 2. Διαγραφή όλων των μηνυμάτων"
+   },
+   "popup_header_title": {
+      "message": "Γρήγορη διαγραφή μηνυμάτων Facebook™"
+   },
+   "popup_title": {
+      "message": "Γρήγορη διαγραφή μηνυμάτων Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Όλα τα μηνύματα έχουν καταργηθεί. Αν σας αρέσει αυτό το εργαλείο - βαθμολογήστε τα 5 αστέρια στο Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Επιτυχία"
+   }
+}

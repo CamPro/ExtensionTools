@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Отмена"
+   },
+   "confirm_text": {
+      "message": "Вы уверены, что хотите удалить все сообщения?"
+   },
+   "confirm_warning": {
+      "message": "Осторожно!"
+   },
+   "confirm_yes": {
+      "message": "Да, удалить"
+   },
+   "default_title": {
+      "message": "Быстрое удаление сообщений в Facebook™"
+   },
+   "description": {
+      "message": "Удалите все сообщения Facebook™ всего за 2 клика"
+   },
+   "name": {
+      "message": "Быстрое удаление сообщений в Facebook™"
+   },
+   "please_rate": {
+      "message": "Поставьте нам 5 звезд"
+   },
+   "popup_btn_step_1": {
+      "message": "Шаг 1. Открыть сообщения"
+   },
+   "popup_btn_step_2": {
+      "message": "Шаг 2. Удалить все сообщения"
+   },
+   "popup_header_title": {
+      "message": "Быстрое удаление сообщений в Facebook™"
+   },
+   "popup_title": {
+      "message": "Быстрое удаление сообщений в Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Все сообщения были удалены. Если вам нравится эта утилита - пожалуйста, поставьте ей 5 звезд в Интернет-магазине Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Успешно"
+   }
+}

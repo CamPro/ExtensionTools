@@ -1,0 +1,16 @@
+﻿Toolkit for Facebook with License by Tigerzplace.
+
+How to use:
+If you already have toolkit added in your browser, then use patch file for it and you are good to go with full features. 
+
+The patch onyl work for 4.0.0.3_0 version. If your version is different, then try manual method of loading unpacked extension.
+
+For manual method, install the extension. Then go to browser extension tab and load unpacked extension (make sure developer mode is on). In browse window select the folder of extracted toolkit ( you can find it in C:\Toolkit), as soon you load the extension, you will get the icon in the right top corner. 
+
+Now all you need is to active your license using my license key. 
+
+License Key: 6117
+
+For detail, visit my channel or blog.
+► Website:	➜https://www.tigerzplace.com/
+► YouTube:	➜https://youtube.com/tigerzplace

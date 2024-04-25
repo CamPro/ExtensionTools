@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Hurtig Slett Facebook™ Meldinger"
+  },
+  "short_name": {
+    "message": "Fast Delete Facebook™ Messages"
+  },
+  "description": {
+    "message": "Bare slett alle Facebook™ -meldingene i Chrome bare om 2 klikk"
+  },
+  "default_title": {
+    "message": "Hurtig Slett Facebook™ Meldinger"
+  },
+  "popup_title": {
+    "message": "Hurtig Slett Facebook™ Meldinger"
+  },
+  "popup_header_title": {
+    "message": "Hurtig Slett Facebook™ Meldinger"
+  },
+  "popup_btn_step_1": {
+    "message": "Trinn 1. Åpne meldinger"
+  },
+  "popup_btn_step_2": {
+    "message": "Trinn 2. Slett alle meldinger"
+  },
+  "confirm_text": {
+    "message": "Er du sikker på at du vil slette alle meldinger?"
+  },
+  "confirm_warning": {
+    "message": "Vær forsiktig!"
+  },
+  "confirm_yes": {
+    "message": "Ja, slett"
+  },
+  "confirm_cancel": {
+    "message": "Avbryt"
+  },
+  "success_delete_all_messages": {
+    "message": "Alle meldinger er fjernet. Hvis du liker dette verktøyet - vær så snill å rangere det 5 stjerner på Chrome Nettmarked! :)"
+  },
+  "success_delete_all_title": {
+    "message": "Suksess"
+  },
+  "please_rate": {
+    "message": "Ranger oss 5 stjerner"
+  }
+}

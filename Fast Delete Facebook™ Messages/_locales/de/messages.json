@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " Stornieren"
+   },
+   "confirm_text": {
+      "message": "Möchten Sie wirklich alle Nachrichten löschen?"
+   },
+   "confirm_warning": {
+      "message": "Achtung!"
+   },
+   "confirm_yes": {
+      "message": "Ja, löschen"
+   },
+   "default_title": {
+      "message": "Schnell löschen Facebook™ Nachrichten"
+   },
+   "description": {
+      "message": "Löschen Sie einfach alle Facebook™ -Nachrichten in Chrome mit nur 2 Klicks"
+   },
+   "name": {
+      "message": "Schnell löschen Facebook™ Nachrichten"
+   },
+   "please_rate": {
+      "message": "Bewerten Sie uns 5 Sterne"
+   },
+   "popup_btn_step_1": {
+      "message": "1. Öffnen Sie die Nachrichten"
+   },
+   "popup_btn_step_2": {
+      "message": "2. Lösche alle Nachrichten"
+   },
+   "popup_header_title": {
+      "message": "Schnell löschen Facebook™ Nachrichten"
+   },
+   "popup_title": {
+      "message": "Schnell löschen Facebook™ Nachrichten"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Alle Nachrichten wurden entfernt. Wenn Ihnen dieses Tool gefällt, bewerten Sie es mit 5 Sternen im Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Erfolg"
+   }
+}

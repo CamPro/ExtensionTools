@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "रद्द करा"
+   },
+   "confirm_text": {
+      "message": "आपली खात्री आहे की आपण सर्व संदेश हटवू इच्छिता?"
+   },
+   "confirm_warning": {
+      "message": "काळजी घ्या!"
+   },
+   "confirm_yes": {
+      "message": "होय, हटवा"
+   },
+   "default_title": {
+      "message": "फास्ट हटवा Facebook™ संदेश"
+   },
+   "description": {
+      "message": "फक्त 2 क्लिकमध्येच Chrome मधील सर्व Facebook™ संदेश हटवा हे संदेश क्लिनरसह संदेशवाहक संदेश एकाच वेळी हटवा."
+   },
+   "name": {
+      "message": "फास्ट हटवा Facebook™ संदेश"
+   },
+   "please_rate": {
+      "message": "आम्हाला 5 तारे रेट करा"
+   },
+   "popup_btn_step_1": {
+      "message": "चरण 1. संदेश उघडा"
+   },
+   "popup_btn_step_2": {
+      "message": "पाऊल 2. सर्व संदेश हटवा"
+   },
+   "popup_header_title": {
+      "message": "फास्ट हटवा Facebook™ संदेश"
+   },
+   "popup_title": {
+      "message": "फास्ट हटवा Facebook™ संदेश"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "सर्व संदेश काढले गेले आहेत. आपल्याला हे साधन आवडत असल्यास - कृपया Chrome वेब स्टोअर वर 5 तारे रेट करा! :)"
+   },
+   "success_delete_all_title": {
+      "message": "यश"
+   }
+}

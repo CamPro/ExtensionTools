@@ -1,0 +1,24 @@
+const FB_ORGIN = window.location.origin;
+const FB_MESSAGE_URL = "https://web.facebook.com/messages";
+const VERIFY_FB_MESSAGE_URL = "facebook.com/messages";
+const FB_DEL_CONVERSATION_API = FB_ORGIN + "/ajax/mercury/delete_thread.php?dpr=1";
+const FB_DEL_UNREAD_THREAD_API = FB_ORGIN + "/ajax/mercury/unread_threads.php?dpr=1";
+const FB_PULL_MESSAGES_API = FB_ORGIN + "/ajax/mercury/threadlist_info.php?dpr=1";
+
+const START_ANALYZE_SCREEN = '1';
+const ANALYZING_SCREEN = '2';
+const DELETE_SCREEN = '3';
+const DELETING_SCREEN = '4';
+const ALERT = "alert";
+const WARNING = "warning";
+const ERROR = "error";
+const CURRENTLY_LOGGED_USERINFO = "CURRENTLY_LOGGED_USERINFO";
+const CHAT_SUMMARY = "CHAT_SUMMARY";
+const DELETE_SUMMARY = "DELETE_SUMMARY";
+const SELECT_AND_DELETE = "SELECT_AND_DELETE";
+const DELETE_SELECTED_CHAT_SUMMARIES = "DELETE_SELECTED_CHAT_SUMMARIES";
+const SELECT_ALL_CHATSUMMARY_CHECKBOX = "SELECT_ALL_CHATSUMMARY_CHECKBOX";
+const CHATSUMMARY_CHECKBOX = "CHATSUMMARY_CHECKBOX ";
+const CHAT_SUMMARY_DIV_ID = "wmMasterViewThreadlist";
+const delayInMS = 2000;
+const PULL_MESSAGE_COUNT = 1000;

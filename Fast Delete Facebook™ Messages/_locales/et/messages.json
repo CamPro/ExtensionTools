@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " Loobu"
+   },
+   "confirm_text": {
+      "message": "Kas olete kindel, et soovite kustutada kõik sõnumid?"
+   },
+   "confirm_warning": {
+      "message": "Ole ettevaatlik!"
+   },
+   "confirm_yes": {
+      "message": "Jah, kustuta"
+   },
+   "default_title": {
+      "message": "Kiire Facebook ™ -teadete kustutamine"
+   },
+   "description": {
+      "message": "Lihtsalt kustutage kõik Facebook™ sõnumid Chrome'is vaid 2 klikiga"
+   },
+   "name": {
+      "message": "Kiire Facebook ™ -teadete kustutamine"
+   },
+   "please_rate": {
+      "message": "Hinda meile 5 tärni"
+   },
+   "popup_btn_step_1": {
+      "message": "1. samm Avage Sõnumid"
+   },
+   "popup_btn_step_2": {
+      "message": "2. samm. Kustuta kõik sõnumid"
+   },
+   "popup_header_title": {
+      "message": "Kiire Facebook ™ -teadete kustutamine"
+   },
+   "popup_title": {
+      "message": "Kiire Facebook ™ -teadete kustutamine"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Kõik sõnumid on eemaldatud. Kui teile meeldib see tööriist - palun hinnake see Chrome'i veebipoegis 5 tähte! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Edu"
+   }
+}

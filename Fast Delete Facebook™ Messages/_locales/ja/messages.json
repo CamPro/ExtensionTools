@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "キャンセル"
+   },
+   "confirm_text": {
+      "message": "すべてのメッセージを削除してもよろしいですか？"
+   },
+   "confirm_warning": {
+      "message": "注意してください！"
+   },
+   "confirm_yes": {
+      "message": "はい、削除してください"
+   },
+   "default_title": {
+      "message": "高速削除 Facebook™メッセージ"
+   },
+   "description": {
+      "message": "2回のクリックでChromeのすべてのFacebook™メッセージを削除するだけです"
+   },
+   "name": {
+      "message": "高速削除 Facebook™メッセージ"
+   },
+   "please_rate": {
+      "message": "5つ星評価する"
+   },
+   "popup_btn_step_1": {
+      "message": "ステップ1.メッセージを開く"
+   },
+   "popup_btn_step_2": {
+      "message": "手順2.すべてのメッセージを削除する"
+   },
+   "popup_header_title": {
+      "message": "高速削除 Facebook™メッセージ"
+   },
+   "popup_title": {
+      "message": "高速削除 Facebook™メッセージ"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "すべてのメッセージが削除されました。 このツールが気に入ったら、Chromeウェブストアで5つ星を評価してください！ :)"
+   },
+   "success_delete_all_title": {
+      "message": "成功"
+   }
+}

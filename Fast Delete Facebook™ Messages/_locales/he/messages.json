@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "לְבַטֵל"
+   },
+   "confirm_text": {
+      "message": "האם אתה בטוח שברצונך למחוק את כל ההודעות?"
+   },
+   "confirm_warning": {
+      "message": "הזהר!"
+   },
+   "confirm_yes": {
+      "message": "כן, מחק"
+   },
+   "default_title": {
+      "message": "מחק במהירות Facebook™ הודעות"
+   },
+   "description": {
+      "message": "פשוט מחק את כל ההודעות של ™ Facebook ב- Chrome רק בשני קליקים"
+   },
+   "name": {
+      "message": "מחק במהירות Facebook™ הודעות"
+   },
+   "please_rate": {
+      "message": "דרג לנו 5 כוכבים"
+   },
+   "popup_btn_step_1": {
+      "message": "שלב 1. פתח הודעות"
+   },
+   "popup_btn_step_2": {
+      "message": "שלב 2. מחק את כל ההודעות"
+   },
+   "popup_header_title": {
+      "message": "מחק במהירות Facebook™ הודעות"
+   },
+   "popup_title": {
+      "message": "מחק במהירות Facebook™ הודעות"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "כל ההודעות הוסרו. אם אתה אוהב כלי זה - דרג אותו ב -5 כוכבים בחנות האינטרנט של Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "הַצלָחָה"
+   }
+}

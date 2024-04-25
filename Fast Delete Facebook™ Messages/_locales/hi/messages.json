@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "रद्द करना"
+   },
+   "confirm_text": {
+      "message": "क्या आप वाकई सभी संदेशों को मिटाना चाहते हैं?"
+   },
+   "confirm_warning": {
+      "message": "सावधान रहे!"
+   },
+   "confirm_yes": {
+      "message": "हाँ, हटाएं"
+   },
+   "default_title": {
+      "message": "फास्ट हटाएं Facebook™ संदेश"
+   },
+   "description": {
+      "message": "केवल 2 क्लिक में क्रोम में सभी फेसबुक ™ संदेशों को हटा दें"
+   },
+   "name": {
+      "message": "फास्ट हटाएं Facebook™ संदेश"
+   },
+   "please_rate": {
+      "message": "हमें 5 सितारे रेट करें"
+   },
+   "popup_btn_step_1": {
+      "message": "चरण 1. खुले संदेश"
+   },
+   "popup_btn_step_2": {
+      "message": "चरण 2. सभी संदेशों को हटाएं"
+   },
+   "popup_header_title": {
+      "message": "फास्ट हटाएं Facebook™ संदेश"
+   },
+   "popup_title": {
+      "message": "फास्ट हटाएं Facebook™ संदेश"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "सभी संदेशों को हटा दिया गया है। अगर आपको यह टूल पसंद है - कृपया इसे क्रोम वेब स्टोर पर 5 सितारे रेट करें! :)"
+   },
+   "success_delete_all_title": {
+      "message": "सफलता"
+   }
+}

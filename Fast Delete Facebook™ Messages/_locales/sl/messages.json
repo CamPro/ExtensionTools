@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Prekliči"
+   },
+   "confirm_text": {
+      "message": "Ali ste prepričani, da želite izbrisati vsa sporočila?"
+   },
+   "confirm_warning": {
+      "message": "Bodi previden!"
+   },
+   "confirm_yes": {
+      "message": "Da, izbrišite"
+   },
+   "default_title": {
+      "message": "Hitro izbriši sporočila Facebook™"
+   },
+   "description": {
+      "message": "Preprosto brisanje vseh Facebook™ sporočil v Chromu samo v dveh klikih"
+   },
+   "name": {
+      "message": "Hitro izbriši sporočila Facebook™"
+   },
+   "please_rate": {
+      "message": "Ocenite nas 5 zvezdic"
+   },
+   "popup_btn_step_1": {
+      "message": "Korak 1. Odpri sporočila"
+   },
+   "popup_btn_step_2": {
+      "message": "Korak 2. Izbriši vsa sporočila"
+   },
+   "popup_header_title": {
+      "message": "Hitro izbriši sporočila Facebook™"
+   },
+   "popup_title": {
+      "message": "Hitro izbriši sporočila Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Vsa sporočila so bila odstranjena. Če vam je všeč to orodje - prosimo, ocenite 5 zvezdic v Spletni trgovini Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Uspeh"
+   }
+}

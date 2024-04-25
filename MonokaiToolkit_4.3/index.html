@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark m-b-30">
+            <div class="container">
+                <div class="row p-b-60 p-t-60">
+
+                    <div class="col-lg-6 text-white p-b-30">
+                        <div class="media">
+                            <div class="avatar avatar mr-3">
+                                <img class="avatar-title bg-success rounded-circle" src='/assets/img/logo.png'/>
+                            </div>
+                            <div class="media-body">
+                                <h1>MonokaiToolkit</h1>
+                                <p class="opacity-75">
+                                    More features, more power
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pull-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-30">
+                                    <div class="card-media pos-relative">
+                                        <img style="border-radius: 4px;" class="card-img" src="/assets/img/cover.jpg" alt="Card image">
+                                        <div class="card-img-overlay text-white bg-overlay">
+                                            <div class="">
+                                                <a href="https://www.facebook.com/monokaijsp" target="_blank" class="badge badge-primary text-uppercase">@MonokaiJs</a>
+                                            </div>
+                                            <div style="position: absolute; bottom: 20px;">
+                                                <h1 lang-vi="Chào mừng">Welcome here!!!</h1>
+                                                <p class="opacity-75" lang-vi="Cảm ơn bạn đã sử dụng Extension. Chúc bạn ngày làm việc tuyệt vời!">
+                                                    Thank you for using my Extension. Have a nice day!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 lang-vi="Bài đăng trên Blog">Blog posts</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- newsfeed -->
+                            <div class="col-6" id="blog-posts-area-1">
+
+                            </div>
+                            <div class="col-6" id="blog-posts-area-2">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card m-b-30">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-7 my-auto">
+                                                <div class="media">
+                                                    <div class="avatar mr-3">
+                                                        <div class="avatar-title rounded-circle bg-info"><i
+                                                                class="mdi mdi-account-multiple"></i></div>
+                                                    </div>
+                                                    <div class="media-body p-t-5">
+                                                        <h5 class="m-b-0">450k</h5>
+                                                        <p class="m-0">Visitors</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 my-auto">
+                                                <div id="chart-widget-15"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-b-30">
+                                    <div class="card-media self-cover"
+                                         style="height: 128px; background-size: cover; background-position: center;">
+                                    </div>
+                                    <div class="card-body">
+
+                                        <div class="text-center pull-up-sm">
+                                            <div class="avatar avatar-xl avatar-online">
+                                                <img src="" class="avatar-img rounded-circle self-avatar" alt="">
+                                            </div>
+                                        </div>
+                                        <h4 class="text-center m-t-20 self-name">
+                                        </h4>
+                                        <div class="text-muted text-center m-b-20">
+
+                                        </div>
+                                        <div class="row text-center p-b-10">
+                                            <div class="col">
+                                                <a href="#" class="show-cookies">
+                                                    <h3 class="mdi mdi-cookie"></h3>
+                                                    <div class="text-overline">Cookie</div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="show-qrcode">
+                                                    <h3 class=" mdi mdi-qrcode"></h3>
+                                                    <div class="text-overline">QR Code</div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="show-token">
+                                                    <h3 class=" mdi mdi-lock"></h3>
+                                                    <div class="text-overline">Token</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+<script src="/custom/plugins/qrcode.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/index.js"></script>
+
+</body>
+</html>

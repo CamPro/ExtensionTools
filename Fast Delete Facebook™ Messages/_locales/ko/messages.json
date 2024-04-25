@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "취소"
+   },
+   "confirm_text": {
+      "message": "모든 메시지를 삭제 하시겠습니까?"
+   },
+   "confirm_warning": {
+      "message": "조심해!"
+   },
+   "confirm_yes": {
+      "message": "예, 삭제합니다."
+   },
+   "default_title": {
+      "message": "빠른 삭제 Facebook™ 메시지"
+   },
+   "description": {
+      "message": "2 번의 클릭만으로 Chrome에서 모든 Facebook™ 메시지를 삭제하십시오."
+   },
+   "name": {
+      "message": "빠른 삭제 Facebook™ 메시지"
+   },
+   "please_rate": {
+      "message": "5 등급 평가하기"
+   },
+   "popup_btn_step_1": {
+      "message": "1 단계. 메시지 열기"
+   },
+   "popup_btn_step_2": {
+      "message": "2 단계. 모든 메시지 삭제"
+   },
+   "popup_header_title": {
+      "message": "빠른 삭제 Facebook™ 메시지"
+   },
+   "popup_title": {
+      "message": "빠른 삭제 Facebook™ 메시지"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "모든 메시지가 삭제되었습니다. 이 도구가 마음에 드시면 Chrome 웹 스토어에서 별 5 개를 평가 해주세요. :)"
+   },
+   "success_delete_all_title": {
+      "message": "성공"
+   }
+}

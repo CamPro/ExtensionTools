@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Membatalkan"
+   },
+   "confirm_text": {
+      "message": "Anda yakin ingin menghapus semua pesan?"
+   },
+   "confirm_warning": {
+      "message": "Hati-hati!"
+   },
+   "confirm_yes": {
+      "message": "Ya, hapus"
+   },
+   "default_title": {
+      "message": "Hapus Cepat Pesan Facebook™"
+   },
+   "description": {
+      "message": "Cukup hapus semua pesan Facebook™ di Chrome hanya dalam 2 klik"
+   },
+   "name": {
+      "message": "Hapus Cepat Pesan Facebook™"
+   },
+   "please_rate": {
+      "message": "Beri kami 5 bintang"
+   },
+   "popup_btn_step_1": {
+      "message": "Langkah 1. Buka Pesan"
+   },
+   "popup_btn_step_2": {
+      "message": "Langkah 2. Hapus Semua Pesan"
+   },
+   "popup_header_title": {
+      "message": "Hapus Cepat Pesan Facebook™"
+   },
+   "popup_title": {
+      "message": "Hapus Cepat Pesan Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Semua pesan telah dihapus. Jika Anda menyukai alat ini - beri nilai 5 bintang di Toko Web Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Keberhasilan"
+   }
+}

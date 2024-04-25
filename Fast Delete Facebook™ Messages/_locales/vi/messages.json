@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": " Hủy bỏ"
+   },
+   "confirm_text": {
+      "message": "Bạn có chắc chắn muốn xóa tất cả thư không?"
+   },
+   "confirm_warning": {
+      "message": "Hãy cẩn thận!"
+   },
+   "confirm_yes": {
+      "message": "Có, xóa"
+   },
+   "default_title": {
+      "message": "Xóa nhanh Tin nhắn Facebook™"
+   },
+   "description": {
+      "message": "Chỉ cần xóa tất cả tin nhắn Facebook™ trong Chrome chỉ bằng 2 lần nhấp"
+   },
+   "name": {
+      "message": "Xóa nhanh Tin nhắn Facebook™"
+   },
+   "please_rate": {
+      "message": "Đánh giá chúng tôi 5 sao"
+   },
+   "popup_btn_step_1": {
+      "message": "Bước 1. Mở tin nhắn"
+   },
+   "popup_btn_step_2": {
+      "message": "Bước 2. Xóa tất cả tin nhắn"
+   },
+   "popup_header_title": {
+      "message": "Xóa nhanh Tin nhắn Facebook™"
+   },
+   "popup_title": {
+      "message": "Xóa nhanh Tin nhắn Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Tất cả thư đã bị xóa. Nếu bạn thích công cụ này - hãy đánh giá nó 5 sao trên Chrome Web Store! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Sự thành công"
+   }
+}

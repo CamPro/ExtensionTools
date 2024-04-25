@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="">Manage actions</h4>
+                        <p class="opacity-75 ">
+                            Actions allow you to drive user into a sequence of messages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0">
+                                <i class="mdi mdi-checkbox-intermediate"></i> Actions list
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>State</th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="rules-list">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                </div>
+                <div class="col-lg-6">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Tạo hành động">
+                                Create Action
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Tạo một hành động mới...">
+                                Create a new action...
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <label for="rule-name" lang-vi="Tên hành động">Action Name</label>
+                                <input class="form-control" id="rule-name" placeholder="Display name for this rule" type="text"/>
+                            </div>
+                            <div class="form-group">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1" class="cstm-switch-input" id="sw-advanced-mode">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Chế độ nâng cao">Advanced Mode</span>
+                                </label>
+                            </div>
+                            <div class="form-group advanced">
+                                <label class="font-secondary" for="apply-rule">Apply this action on </label>
+                                <select multiple class="form-control js-select2" id="apply-rule">
+                                    <option value="main-inbox" selected>Main Inbox</option>
+                                    <option value="pending-inbox" lang-vi="Hộp thư đang chờ">Pending Inbox</option>
+                                    <option value="gender-filter" lang-vi="Lọc giới tính">Gender Filter</option>
+                                    <option value="ids-filter" lang-vi="Chỉ cho các IDs">Only Provided IDs</option>
+                                    <option value="word-filter" lang-vi="Chứa cụm từ">Contain word</option>
+                                    <option value="variable-filter">User Variable</option>
+                                </select>
+                            </div>
+                            <div class="form-group advanced" id="area-gender-filter" style="display: none;">
+                                <label for="gender-filter">Gender Filter</label>
+                                <select class="form-control" id="gender-filter">
+                                    <option value="all" selected lang-vi="Tất cả">All</option>
+                                    <option value="male" lang-vi="Nam">Male</option>
+                                    <option value="female" lang-vi="Nữ">Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group advanced" id="area-ids-filter" style="display: none;">
+                                <label for="ids-filter" lang-vi="IDs (ngăn cách bởi dấu ,)">IDs (seperated by comma ,)</label>
+                                <input class="form-control" id="ids-filter" placeholder="123,456" type="text"/>
+                            </div>
+                            <div class="form-group advanced" id="area-word-filter" style="display: none;">
+                                <label for="word-filter" lang-vi="Chứa từ">Contains word</label>
+                                <input class="form-control" id="word-filter" placeholder="A word or clause that message must has" type="text"/>
+                            </div>
+                            <div class="form-group advanced">
+                                <label class="cstm-switch">
+                                    <input id="sw-reply-message" type="checkbox" name="option" value="1" class="cstm-switch-input" checked>
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Tin nhắn trả lời">Reply message</span>
+                                </label>
+                            </div>
+                            <div class="form-group advanced">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1" class="cstm-switch-input" id="sw-extract-data">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Trích xuất data">Extract Data (Advanced)</span>
+                                </label>
+                            </div>
+                            <div class="form-group advanced">
+                                <label class="cstm-switch">
+                                    <input id="sw-set-variable" type="checkbox" name="option" value="1" class="cstm-switch-input">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Đặt biến người dùng">Set User Variable</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="cstm-switch">
+                                    <input id="sw-jump-event" type="checkbox" name="option" value="1" class="cstm-switch-input">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Nhảy đến Event">Jump to event</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="cstm-switch">
+                                    <input id="sw-reply-group" type="checkbox" name="option" value="1" class="cstm-switch-input">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Trả lời tin nhắn Nhóm">Reply Group Messages</span>
+                                </label>
+                            </div>
+                            <div class="form-group advanced" id="area-set-variable" style="display: none;">
+                                <h5 lang-vi="Đặt biến">Set Variable</h5>
+                                <div class="form-row">
+                                    <div class="col-6 form-group">
+                                        <label for="set-variable-name" lang-vi="Tên biến">Variable Name</label>
+                                        <input class="form-control" id="set-variable-name" placeholder="Variable Name" type="text"/>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label for="set-variable-value" lang-vi="Giá trị biến">Variable Value</label>
+                                        <input class="form-control" id="set-variable-value" placeholder="Variable Value" type="text"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group advanced" id="area-variable-filter" style="display: none;">
+                                <h5>Variable Filter</h5>
+                                <div class="form-row">
+                                    <div class="col-4 form-group">
+                                        <label for="variable-name-filter">Variable Name</label>
+                                        <input class="form-control" id="variable-name-filter" placeholder="User Variable Name" type="text"/>
+                                    </div>
+                                    <div class="col-4 form-group">
+                                        <label for="variable-logic-filter">Logic</label>
+                                        <select class="form-control" id="variable-logic-filter">
+                                            <option value="equal" selected>Equal</option>
+                                            <option value="case-non-sensitive">Case non-sensitive equal</option>
+                                            <option value="exists">Exists</option>
+                                            <option value="not-exists">Not Exists</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4 form-group">
+                                        <label for="variable-value-filter">Variable Value</label>
+                                        <input class="form-control" id="variable-value-filter" placeholder="User Variable Value" type="text"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="area-extract-data" style="display: none;">
+                                <h5>Extract Data</h5>
+                                <div class="form-row">
+                                    <div class="col-6 form-group">
+                                        <label for="variable-name">Variable Name (To be set)</label>
+                                        <input class="form-control" id="variable-name" placeholder="User Variable Value" type="text"/>
+                                        <small class="form-text text-muted">User variable will be set according to regex result</small>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label for="regular-expression">Regular Expression</label>
+                                        <input class="form-control" id="regular-expression" placeholder="(.*)" type="text"/>
+                                        <small class="form-text text-muted">Please make sure you know what's RegEx!</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="area-jump-event" style="display: none;">
+                                <label for="sel-jump-event" lang-vi="Nhảy đến sự kiện">Jump to event</label>
+                                <select class="form-control" id="sel-jump-event">
+                                    <option value="--">Not selected</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="area-reply-message">
+                                <label for="ids-filter" lang-vi="Nội dung trả lời">Reply message content</label>
+                                <textarea class="form-control" id="reply-message-content" placeholder="Message content..." type="text"></textarea>
+                            </div>
+
+                            <div class="form-group" id="area-save">
+                                <button class="btn btn-block btn-primary" id="btn-add-rule" lang-vi="Thêm hành động">Add Action</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/auto-reply-rules.js"></script>
+
+</body>
+</html>

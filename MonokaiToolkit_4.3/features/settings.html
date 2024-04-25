@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>MonokaiToolkit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
+    <link rel="icon" href="/assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+    <script src="/assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/materialdesignicons/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/monokaijs/MonokaiToolkitConfig/fonts/feather/feather-icons.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+    <!-- Additional library for page -->
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar" id="site-aside"></aside>
+<main class="admin-main">
+    <header class="admin-header" id="site-header"></header>
+    <section class="admin-content">
+        <div class="bg-dark">
+            <div class="container  m-b-30">
+                <div class="row">
+                    <div class="col-12 text-white p-t-40 p-b-90">
+                        <h4 class="" lang-vi="Cài đặt">Settings</h4>
+                        <p class="opacity-75 " lang-vi="Quản lí và Thiết lập tất cả tính năng">
+                            Manage & Configure all features
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  pull-up">
+            <div class="row">
+                <div class="col-lg-7">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Thiết lập">
+                                Configurations
+                            </h5>
+                            <p class="m-b-0 m-t-20 text-muted">
+                                <button class="btn btn-primary export-data" lang-vi="Xuất Thiết Lập">Export Configurations</button>
+                                <button class="btn btn-warning import-data" lang-vi="Nhập Thiết Lập">Import Configurations</button>
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <label for="sel-choose-language" lang-vi="Chọn ngôn ngữ">Choose language</label>
+                                <select class="form-control" id="sel-choose-language">
+                                    <option value="vi-VN">Tiếng Việt</option>
+                                    <option value="en-US">English</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1" data-feature="useGraphAPI" id="useGraphAPI" class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Sử dụng Graph API">Use Graph API</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Điều chỉnh tốc độ">
+                                Modify Speed
+                            </h5>
+                        </div>
+                        <div class="card-body ">
+                            <p lang-vi="Chú ý: Lưu ý rằng nếu bạn đặt tốc độ nhanh quá (thời gian trễ thấp), thì đôi khi Facebook sẽ chặn tính năng. Tính năng chạy càng chậm thì càng an toàn.">
+                                <b>Note:</b> Please be noticed that if you set the speed too fast (delay time is too small),
+                                sometimes, Facebook may block you from using some features. The more slow features are, the
+                                less issues you get.
+                            </p>
+                            <div class="form-group">
+                                <label for="sel-choose-time-auto-interactions" lang-vi="Thời gian trễ của Tự động tương tác (đơn vị giây)">Delay time of Auto Interactions (in seconds)</label>
+                                <select class="form-control system-feature-select" id="sel-choose-time-auto-interactions" data-feature="autoInteractionsDelayTime">
+                                    <option value="30" lang-vi="30 giây">30 seconds</option>
+                                    <option value="60" lang-vi="60 giây (1 phút)">60 seconds (1 minute)</option>
+                                    <option value="120" lang-vi="120 giây (2 phút)">120 seconds (2 minutes)</option>
+                                    <option value="300" lang-vi="300 giây (5 phút)">300 seconds (5 minutes)</option>
+                                    <option value="600" lang-vi="600 giây (10 phút)">600 seconds (10 minutes)</option>
+                                    <option value="900" lang-vi="900 giây (15 phút)" selected>900 seconds (15 minutes)</option>
+                                    <option value="1200" lang-vi="1200 giây (20 phút)">1200 seconds (20 minutes)</option>
+                                    <option value="1800" lang-vi="1800 giây (30 phút)">1800 seconds (30 minutes)</option>
+                                    <option value="3600" lang-vi="3600 giây (60 phút)">3600 seconds (60 minutes)</option>
+                                </select>
+                                <small lang-vi="Lượng thời gian giữa 2 lần MonokaiToolkit thực hiện tác vụ auto.">Amount of time between two times MonokaiToolkit does auto operation.</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Quản lí tính năng">
+                                Manage features
+                            </h5>
+                            <p class="m-b-0 text-muted">
+
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class=" m-b-10 hide-premium">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1"
+                                           data-feature="autoInteractions"
+                                           class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Tự động tương tác">Auto Interactions</span>
+                                </label>
+                            </div>
+                            <div class="form-group hide-premium">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1" data-feature="autoReactions" id="autoReactions" class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Tự động Cảm xúc">Auto Reactions</span>
+                                </label>
+                            </div>
+                            <div class="form-group m-b-50 hide-premium">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1" data-feature="autoComment" id="autoComment" class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Tự động Comment">Auto Comment</span>
+                                </label>
+                            </div>
+                            <div class="form-group m">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1"
+                                           data-feature="blockSeenMessages"
+                                           class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Chặn Seen tin nhắn">Block Seen Messages</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1"
+                                           data-feature="blockSeenStory"
+                                           class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Chặn Seen Story">Block Seen Story</span>
+                                </label>
+                            </div>
+                            <div class="form-group m-t-50">
+                                <label class="cstm-switch">
+                                    <input type="checkbox" name="option" value="1"
+                                           data-feature="autoReplyMessages"
+                                           class="cstm-switch-input system-feature-check">
+                                    <span class="cstm-switch-indicator "></span>
+                                    <span class="cstm-switch-description" lang-vi="Tự động trả lời tin nhắn">Auto Reply Messages</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                </div>
+                <div class="col-lg-5">
+                    <!--widget card begin-->
+                    <div class="card m-b-30">
+                        <div class="card-header">
+                            <h5 class="m-b-0" lang-vi="Thông tin">
+                                About
+                            </h5>
+                            <p class="m-b-0 text-muted" lang-vi="Ai đã tạo ra cái này?">
+                                Who created this?
+                            </p>
+                        </div>
+                        <div class="card-body " lang-vi="Bạn đang sử dụng cái thành quả nho nhỏ của tớ. Hãy ủng hộ hoặc mua gói Premium nếu bạn thích nó nhé!! Cảm ơn nhiều.">
+                            <p>Oh well, you're using my little work. Please donate or buy a premium plan if you like it!! Thanks alot.</p>
+                        </div>
+                    </div>
+                    <!--widget card ends-->
+                    <div class="card m-b-30" style="overflow:hidden;">
+                        <div class="card-media">
+                            <img class="card-img-top" src="/assets/img/cover.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center pull-up">
+                                <div class="avatar avatar-xxl avatar-online">
+                                    <img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/p960x960/82248217_1099499757063779_6241009594768818176_o.png?_nc_cat=104&_nc_sid=85a577&_nc_ohc=Ib4RMAxFraYAX9Ym7Pa&_nc_ht=scontent.fhph1-1.fna&oh=62a7f9f55bf7543490041e9709b63f05&oe=5EB961E6" class="avatar-img rounded-circle" alt="">
+                                </div>
+                            </div>
+                            <h4 class="text-center m-t-20">
+                                NorthStudio
+                            </h4>
+                            <div class="text-muted text-center m-b-20">
+                                Spreading Inspiration
+                            </div>
+                            <div class="row text-center p-b-10">
+                                <div class="col">
+                                    <a href="https://www.facebook.com/nstudio.official/" target="_blank">
+                                        <h3 class=" mdi mdi-facebook-box"></h3>
+                                        <div class="text-overline">facebook</div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://www.youtube.com/c/NORTHSTUDIO" target="_blank">
+                                        <h3 class=" mdi mdi-youtube"></h3>
+                                        <div class="text-overline">YouTube</div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/custom/plugins/core.js"></script>
+<script src="/custom/plugins/facebook.js"></script>
+
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="/assets/vendor/popper/popper.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/dashboard-01.js"></script>
+
+<script src="/custom/pages/global.js"></script>
+<script src="/custom/pages/settings.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Atcelt"
+   },
+   "confirm_text": {
+      "message": "Vai tiešām vēlaties dzēst visus ziņojumus?"
+   },
+   "confirm_warning": {
+      "message": "Esi uzmanīgs!"
+   },
+   "confirm_yes": {
+      "message": "Jā, dzēst"
+   },
+   "default_title": {
+      "message": "Ātri izdzēsiet Facebook™ ziņas"
+   },
+   "description": {
+      "message": "Vienkārši izdzēsiet visus Facebook™ ziņojumus pārlūkā Chrome tikai ar 2 klikšķiem"
+   },
+   "name": {
+      "message": "Ātri izdzēsiet Facebook™ ziņas"
+   },
+   "please_rate": {
+      "message": "Novērtējiet mūs 5 zvaigznes"
+   },
+   "popup_btn_step_1": {
+      "message": "1. darbība. Atveriet ziņojumus"
+   },
+   "popup_btn_step_2": {
+      "message": "2. darbība. Dzēst visus ziņojumus"
+   },
+   "popup_header_title": {
+      "message": "Ātri izdzēsiet Facebook™ ziņas"
+   },
+   "popup_title": {
+      "message": "Ātri izdzēsiet Facebook™ ziņas"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Visi ziņojumi ir noņemti. Ja jums patīk šis rīks - lūdzu, novērtējiet to ar 5 zvaigznītēm Chrome interneta veikalā! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Panākumi"
+   }
+}

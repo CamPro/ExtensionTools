@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Zrušiť"
+   },
+   "confirm_text": {
+      "message": "Naozaj chcete odstrániť všetky správy?"
+   },
+   "confirm_warning": {
+      "message": "Buď opatrný!"
+   },
+   "confirm_yes": {
+      "message": "Áno, odstráňte"
+   },
+   "default_title": {
+      "message": "Rýchle vymazanie správ Facebook™"
+   },
+   "description": {
+      "message": "Jednoducho odstráňte všetky správy Facebook™ v prehliadači Chrome len za 2 kliknutia"
+   },
+   "name": {
+      "message": "Rýchle vymazanie správ Facebook™"
+   },
+   "please_rate": {
+      "message": "Ohodnoťte nás 5 hviezdičiek"
+   },
+   "popup_btn_step_1": {
+      "message": "Krok 1. Otvorte Správy"
+   },
+   "popup_btn_step_2": {
+      "message": "Krok 2. Odstrániť všetky správy"
+   },
+   "popup_header_title": {
+      "message": "Rýchle vymazanie správ Facebook™"
+   },
+   "popup_title": {
+      "message": "Rýchle vymazanie správ Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Všetky správy boli odstránené. Ak sa vám tento nástroj páči - uveďte, prosím, 5 hviezdičiek v Internetovom obchode Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Úspech"
+   }
+}

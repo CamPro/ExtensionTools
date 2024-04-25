@@ -1,0 +1,47 @@
+{
+   "confirm_cancel": {
+      "message": "Batalkan"
+   },
+   "confirm_text": {
+      "message": "Adakah anda pasti mahu memadamkan semua mesej?"
+   },
+   "confirm_warning": {
+      "message": "Berhati-hati!"
+   },
+   "confirm_yes": {
+      "message": "Ya, padam"
+   },
+   "default_title": {
+      "message": "Cepat Padam Mesej Facebook™"
+   },
+   "description": {
+      "message": "Cuma memadamkan semua mesej Facebook™ di Chrome dalam 2 klik sahaja"
+   },
+   "name": {
+      "message": "Cepat Padam Mesej Facebook™"
+   },
+   "please_rate": {
+      "message": "Berikan kami 5 bintang"
+   },
+   "popup_btn_step_1": {
+      "message": "Langkah 1. Terbuka Mesej"
+   },
+   "popup_btn_step_2": {
+      "message": "Langkah 2. Padamkan Semua Mesej"
+   },
+   "popup_header_title": {
+      "message": "Cepat Padam Mesej Facebook™"
+   },
+   "popup_title": {
+      "message": "Cepat Padam Mesej Facebook™"
+   },
+   "short_name": {
+      "message": "Fast Delete Facebook™ Messages"
+   },
+   "success_delete_all_messages": {
+      "message": "Semua mesej telah dialih keluar. Jika anda menyukai alat ini - sila menilainya 5 bintang di Kedai Web Chrome! :)"
+   },
+   "success_delete_all_title": {
+      "message": "Kejayaan"
+   }
+}
